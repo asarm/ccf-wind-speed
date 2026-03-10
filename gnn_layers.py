@@ -1,9 +1,3 @@
-"""
-GNN Layer implementations: GCN, GAT, GraphSAGE
-Each layer supports dual embeddings (self_emb and influence_emb) for separate
-self and neighbor contributions.
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
