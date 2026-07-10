@@ -1,4 +1,4 @@
-# Official repository for the paper titled "Lag-Aware Cross-correlation Graph Neural Network for Wind Speed Forecasting". 
+# Official repository for the paper titled "Lag-Aware Cross-correlation Graph Neural Network for Wind Speed Forecasting". 
 LACGNN is a multi-view graph neural network for multi-station wind speed forecasting. It combines three directed graphs: a learned adaptive graph, a dynamic cross-correlation graph capturing peak-lag propagation within each input window, and a static cross-correlation graph built from full-lag profiles to model the directional, time-delayed nature of atmospheric influence. A dual embedding mechanism with per-station learnable weights separates each station's representation into self and influence components, allowing meteorological variables to contribute differently to local prediction and spatial message passing.
 
 ## Datasets
