@@ -1,0 +1,938 @@
+Dataset: UK
+Runs: 15 seeds
+Checkpoint selection: lowest validation composite loss
+
+**------ Seed 1/15 ------**
+[1/100] Train loss: 0.218272, Val composite loss: 0.188357, Val MAE: 3.365520, Val RMSE: 4.451433
+[2/100] Train loss: 0.188089, Val composite loss: 0.171966, Val MAE: 3.066855, Val RMSE: 4.043768
+[3/100] Train loss: 0.181117, Val composite loss: 0.168413, Val MAE: 3.015516, Val RMSE: 3.941592
+[4/100] Train loss: 0.178178, Val composite loss: 0.170071, Val MAE: 3.017897, Val RMSE: 4.011090
+[5/100] Train loss: 0.176354, Val composite loss: 0.166858, Val MAE: 2.967227, Val RMSE: 3.940205
+[6/100] Train loss: 0.175732, Val composite loss: 0.164616, Val MAE: 2.931705, Val RMSE: 3.871811
+[7/100] Train loss: 0.174230, Val composite loss: 0.164206, Val MAE: 2.919696, Val RMSE: 3.870988
+[8/100] Train loss: 0.173142, Val composite loss: 0.163259, Val MAE: 2.905468, Val RMSE: 3.834178
+[9/100] Train loss: 0.173249, Val composite loss: 0.163402, Val MAE: 2.917298, Val RMSE: 3.824424
+[10/100] Train loss: 0.172500, Val composite loss: 0.164398, Val MAE: 2.918245, Val RMSE: 3.892721
+[11/100] Train loss: 0.172256, Val composite loss: 0.163781, Val MAE: 2.919973, Val RMSE: 3.841915
+[12/100] Train loss: 0.171594, Val composite loss: 0.162035, Val MAE: 2.883982, Val RMSE: 3.806844
+[13/100] Train loss: 0.171301, Val composite loss: 0.162168, Val MAE: 2.888509, Val RMSE: 3.802774
+[14/100] Train loss: 0.171035, Val composite loss: 0.162329, Val MAE: 2.897309, Val RMSE: 3.809172
+[15/100] Train loss: 0.170439, Val composite loss: 0.162128, Val MAE: 2.890609, Val RMSE: 3.801535
+[16/100] Train loss: 0.170377, Val composite loss: 0.162740, Val MAE: 2.887620, Val RMSE: 3.842403
+[17/100] Train loss: 0.170114, Val composite loss: 0.163159, Val MAE: 2.910424, Val RMSE: 3.822443
+[18/100] Train loss: 0.169236, Val composite loss: 0.161090, Val MAE: 2.862176, Val RMSE: 3.790141
+[19/100] Train loss: 0.168979, Val composite loss: 0.160807, Val MAE: 2.854704, Val RMSE: 3.784513
+[20/100] Train loss: 0.168904, Val composite loss: 0.161105, Val MAE: 2.854388, Val RMSE: 3.801387
+[21/100] Train loss: 0.168732, Val composite loss: 0.161045, Val MAE: 2.859490, Val RMSE: 3.794898
+[22/100] Train loss: 0.168382, Val composite loss: 0.161729, Val MAE: 2.878358, Val RMSE: 3.800247
+[23/100] Train loss: 0.168560, Val composite loss: 0.161221, Val MAE: 2.870032, Val RMSE: 3.787822
+[24/100] Train loss: 0.168338, Val composite loss: 0.161235, Val MAE: 2.876232, Val RMSE: 3.778622
+[25/100] Train loss: 0.167387, Val composite loss: 0.160337, Val MAE: 2.852475, Val RMSE: 3.766440
+[26/100] Train loss: 0.167124, Val composite loss: 0.161497, Val MAE: 2.868697, Val RMSE: 3.800716
+[27/100] Train loss: 0.167223, Val composite loss: 0.161466, Val MAE: 2.864168, Val RMSE: 3.802662
+[28/100] Train loss: 0.166954, Val composite loss: 0.161993, Val MAE: 2.884006, Val RMSE: 3.798380
+[29/100] Train loss: 0.166667, Val composite loss: 0.160260, Val MAE: 2.842361, Val RMSE: 3.777112
+[30/100] Train loss: 0.166378, Val composite loss: 0.161480, Val MAE: 2.871143, Val RMSE: 3.798243
+[31/100] Train loss: 0.166440, Val composite loss: 0.160470, Val MAE: 2.857338, Val RMSE: 3.769933
+[32/100] Train loss: 0.166064, Val composite loss: 0.160288, Val MAE: 2.849887, Val RMSE: 3.762793
+[33/100] Train loss: 0.166070, Val composite loss: 0.160840, Val MAE: 2.862474, Val RMSE: 3.771357
+[34/100] Train loss: 0.165776, Val composite loss: 0.160373, Val MAE: 2.849768, Val RMSE: 3.773391
+[35/100] Train loss: 0.165141, Val composite loss: 0.160196, Val MAE: 2.849786, Val RMSE: 3.766950
+[36/100] Train loss: 0.165052, Val composite loss: 0.160030, Val MAE: 2.847007, Val RMSE: 3.762280
+[37/100] Train loss: 0.164870, Val composite loss: 0.159848, Val MAE: 2.840564, Val RMSE: 3.768094
+[38/100] Train loss: 0.164646, Val composite loss: 0.159672, Val MAE: 2.837009, Val RMSE: 3.759779
+[39/100] Train loss: 0.164526, Val composite loss: 0.159797, Val MAE: 2.840392, Val RMSE: 3.760454
+[40/100] Train loss: 0.164359, Val composite loss: 0.161315, Val MAE: 2.874709, Val RMSE: 3.782370
+[41/100] Train loss: 0.164368, Val composite loss: 0.160256, Val MAE: 2.853870, Val RMSE: 3.759408
+[42/100] Train loss: 0.164121, Val composite loss: 0.160931, Val MAE: 2.863326, Val RMSE: 3.778285
+[43/100] Train loss: 0.164043, Val composite loss: 0.161642, Val MAE: 2.885115, Val RMSE: 3.790846
+[44/100] Train loss: 0.163589, Val composite loss: 0.160260, Val MAE: 2.855866, Val RMSE: 3.759366
+[45/100] Train loss: 0.163138, Val composite loss: 0.159992, Val MAE: 2.840775, Val RMSE: 3.769135
+[46/100] Train loss: 0.163302, Val composite loss: 0.160623, Val MAE: 2.855859, Val RMSE: 3.780157
+[47/100] Train loss: 0.162928, Val composite loss: 0.160825, Val MAE: 2.858538, Val RMSE: 3.786325
+[48/100] Train loss: 0.162896, Val composite loss: 0.160098, Val MAE: 2.838650, Val RMSE: 3.776831
+[49/100] Train loss: 0.162480, Val composite loss: 0.160722, Val MAE: 2.850605, Val RMSE: 3.789616
+Selected epoch: 38
+Test MAE: 3.023883
+Test RMSE: 4.022517
+
+**------ Seed 2/15 ------**
+[1/100] Train loss: 0.217511, Val composite loss: 0.181447, Val MAE: 3.253035, Val RMSE: 4.204432
+[2/100] Train loss: 0.187715, Val composite loss: 0.169901, Val MAE: 3.036958, Val RMSE: 3.979195
+[3/100] Train loss: 0.182638, Val composite loss: 0.169133, Val MAE: 3.027754, Val RMSE: 3.956817
+[4/100] Train loss: 0.179443, Val composite loss: 0.173614, Val MAE: 3.129217, Val RMSE: 4.072740
+[5/100] Train loss: 0.177032, Val composite loss: 0.168357, Val MAE: 3.014569, Val RMSE: 3.942440
+[6/100] Train loss: 0.176863, Val composite loss: 0.167795, Val MAE: 3.013231, Val RMSE: 3.917935
+[7/100] Train loss: 0.175174, Val composite loss: 0.164874, Val MAE: 2.937506, Val RMSE: 3.866554
+[8/100] Train loss: 0.174664, Val composite loss: 0.164624, Val MAE: 2.924156, Val RMSE: 3.875228
+[9/100] Train loss: 0.173519, Val composite loss: 0.163429, Val MAE: 2.916284, Val RMSE: 3.822694
+[10/100] Train loss: 0.173220, Val composite loss: 0.163606, Val MAE: 2.911057, Val RMSE: 3.846967
+[11/100] Train loss: 0.172201, Val composite loss: 0.163320, Val MAE: 2.908813, Val RMSE: 3.836577
+[12/100] Train loss: 0.171850, Val composite loss: 0.165317, Val MAE: 2.947556, Val RMSE: 3.879863
+[13/100] Train loss: 0.171557, Val composite loss: 0.165201, Val MAE: 2.950668, Val RMSE: 3.856043
+[14/100] Train loss: 0.171129, Val composite loss: 0.165300, Val MAE: 2.956933, Val RMSE: 3.889187
+[15/100] Train loss: 0.170488, Val composite loss: 0.161878, Val MAE: 2.876033, Val RMSE: 3.809099
+[16/100] Train loss: 0.170617, Val composite loss: 0.162769, Val MAE: 2.890862, Val RMSE: 3.834080
+[17/100] Train loss: 0.170309, Val composite loss: 0.162356, Val MAE: 2.892995, Val RMSE: 3.809991
+[18/100] Train loss: 0.170082, Val composite loss: 0.161549, Val MAE: 2.876168, Val RMSE: 3.790830
+[19/100] Train loss: 0.169757, Val composite loss: 0.162964, Val MAE: 2.902026, Val RMSE: 3.822875
+[20/100] Train loss: 0.169231, Val composite loss: 0.162257, Val MAE: 2.887343, Val RMSE: 3.811928
+[21/100] Train loss: 0.168867, Val composite loss: 0.162470, Val MAE: 2.895154, Val RMSE: 3.801235
+[22/100] Train loss: 0.168915, Val composite loss: 0.162003, Val MAE: 2.877159, Val RMSE: 3.810176
+[23/100] Train loss: 0.168569, Val composite loss: 0.162146, Val MAE: 2.882905, Val RMSE: 3.825183
+[24/100] Train loss: 0.167728, Val composite loss: 0.160943, Val MAE: 2.857912, Val RMSE: 3.794750
+[25/100] Train loss: 0.167621, Val composite loss: 0.160385, Val MAE: 2.853034, Val RMSE: 3.772796
+[26/100] Train loss: 0.167395, Val composite loss: 0.161014, Val MAE: 2.863373, Val RMSE: 3.779479
+[27/100] Train loss: 0.167266, Val composite loss: 0.160371, Val MAE: 2.846445, Val RMSE: 3.786984
+[28/100] Train loss: 0.167023, Val composite loss: 0.161290, Val MAE: 2.861043, Val RMSE: 3.798902
+[29/100] Train loss: 0.166710, Val composite loss: 0.161023, Val MAE: 2.854213, Val RMSE: 3.793478
+[30/100] Train loss: 0.166812, Val composite loss: 0.160803, Val MAE: 2.864609, Val RMSE: 3.776466
+[31/100] Train loss: 0.166073, Val composite loss: 0.159408, Val MAE: 2.824851, Val RMSE: 3.759463
+[32/100] Train loss: 0.165990, Val composite loss: 0.161488, Val MAE: 2.860712, Val RMSE: 3.811212
+[33/100] Train loss: 0.165735, Val composite loss: 0.159762, Val MAE: 2.839243, Val RMSE: 3.756088
+[34/100] Train loss: 0.165661, Val composite loss: 0.160187, Val MAE: 2.834930, Val RMSE: 3.788860
+[35/100] Train loss: 0.165474, Val composite loss: 0.160593, Val MAE: 2.851044, Val RMSE: 3.778986
+[36/100] Train loss: 0.165413, Val composite loss: 0.159913, Val MAE: 2.836689, Val RMSE: 3.772738
+[37/100] Train loss: 0.164689, Val composite loss: 0.160070, Val MAE: 2.846836, Val RMSE: 3.764466
+[38/100] Train loss: 0.164760, Val composite loss: 0.159804, Val MAE: 2.832765, Val RMSE: 3.769139
+[39/100] Train loss: 0.164370, Val composite loss: 0.159299, Val MAE: 2.829339, Val RMSE: 3.753019
+[40/100] Train loss: 0.164244, Val composite loss: 0.160023, Val MAE: 2.836257, Val RMSE: 3.771002
+[41/100] Train loss: 0.164165, Val composite loss: 0.159382, Val MAE: 2.831399, Val RMSE: 3.747496
+[42/100] Train loss: 0.163997, Val composite loss: 0.159564, Val MAE: 2.836009, Val RMSE: 3.754601
+[43/100] Train loss: 0.163977, Val composite loss: 0.159684, Val MAE: 2.834982, Val RMSE: 3.760445
+[44/100] Train loss: 0.163555, Val composite loss: 0.161120, Val MAE: 2.854188, Val RMSE: 3.800655
+[45/100] Train loss: 0.163113, Val composite loss: 0.159760, Val MAE: 2.838366, Val RMSE: 3.762891
+[46/100] Train loss: 0.163167, Val composite loss: 0.160227, Val MAE: 2.858749, Val RMSE: 3.758509
+[47/100] Train loss: 0.163049, Val composite loss: 0.159830, Val MAE: 2.839966, Val RMSE: 3.761990
+[48/100] Train loss: 0.162833, Val composite loss: 0.159944, Val MAE: 2.832868, Val RMSE: 3.781662
+[49/100] Train loss: 0.162583, Val composite loss: 0.158993, Val MAE: 2.823323, Val RMSE: 3.745702
+[50/100] Train loss: 0.162490, Val composite loss: 0.159608, Val MAE: 2.831594, Val RMSE: 3.767647
+[51/100] Train loss: 0.162228, Val composite loss: 0.159593, Val MAE: 2.841465, Val RMSE: 3.749517
+[52/100] Train loss: 0.162421, Val composite loss: 0.159860, Val MAE: 2.840055, Val RMSE: 3.765852
+[53/100] Train loss: 0.162151, Val composite loss: 0.159612, Val MAE: 2.836048, Val RMSE: 3.756162
+[54/100] Train loss: 0.161947, Val composite loss: 0.160369, Val MAE: 2.844458, Val RMSE: 3.785007
+[55/100] Train loss: 0.161337, Val composite loss: 0.159379, Val MAE: 2.828470, Val RMSE: 3.757117
+[56/100] Train loss: 0.161162, Val composite loss: 0.159527, Val MAE: 2.834345, Val RMSE: 3.759601
+[57/100] Train loss: 0.161053, Val composite loss: 0.159642, Val MAE: 2.835524, Val RMSE: 3.759472
+[58/100] Train loss: 0.160999, Val composite loss: 0.159480, Val MAE: 2.830548, Val RMSE: 3.759354
+[59/100] Train loss: 0.160774, Val composite loss: 0.160438, Val MAE: 2.842806, Val RMSE: 3.791940
+[60/100] Train loss: 0.160231, Val composite loss: 0.159855, Val MAE: 2.839799, Val RMSE: 3.760648
+Selected epoch: 49
+Test MAE: 3.028988
+Test RMSE: 4.040521
+
+**------ Seed 3/15 ------**
+[1/100] Train loss: 0.216644, Val composite loss: 0.181273, Val MAE: 3.247786, Val RMSE: 4.201860
+[2/100] Train loss: 0.188481, Val composite loss: 0.174451, Val MAE: 3.107366, Val RMSE: 4.137561
+[3/100] Train loss: 0.180982, Val composite loss: 0.169427, Val MAE: 3.008436, Val RMSE: 3.993435
+[4/100] Train loss: 0.179077, Val composite loss: 0.168848, Val MAE: 3.026653, Val RMSE: 3.926033
+[5/100] Train loss: 0.176980, Val composite loss: 0.165797, Val MAE: 2.959021, Val RMSE: 3.881121
+[6/100] Train loss: 0.175951, Val composite loss: 0.165615, Val MAE: 2.959528, Val RMSE: 3.875044
+[7/100] Train loss: 0.174877, Val composite loss: 0.165563, Val MAE: 2.948857, Val RMSE: 3.893626
+[8/100] Train loss: 0.174012, Val composite loss: 0.165219, Val MAE: 2.940667, Val RMSE: 3.883192
+[9/100] Train loss: 0.173439, Val composite loss: 0.165175, Val MAE: 2.937391, Val RMSE: 3.889820
+[10/100] Train loss: 0.172957, Val composite loss: 0.163174, Val MAE: 2.902998, Val RMSE: 3.836553
+[11/100] Train loss: 0.172165, Val composite loss: 0.163429, Val MAE: 2.903128, Val RMSE: 3.845631
+[12/100] Train loss: 0.172241, Val composite loss: 0.164791, Val MAE: 2.954887, Val RMSE: 3.853617
+[13/100] Train loss: 0.171881, Val composite loss: 0.162925, Val MAE: 2.889448, Val RMSE: 3.834488
+[14/100] Train loss: 0.171162, Val composite loss: 0.162849, Val MAE: 2.897060, Val RMSE: 3.828439
+[15/100] Train loss: 0.170987, Val composite loss: 0.162026, Val MAE: 2.872071, Val RMSE: 3.825633
+[16/100] Train loss: 0.170942, Val composite loss: 0.162253, Val MAE: 2.877738, Val RMSE: 3.827438
+[17/100] Train loss: 0.170668, Val composite loss: 0.164047, Val MAE: 2.929384, Val RMSE: 3.836706
+[18/100] Train loss: 0.170042, Val composite loss: 0.163405, Val MAE: 2.913717, Val RMSE: 3.835610
+[19/100] Train loss: 0.170342, Val composite loss: 0.162504, Val MAE: 2.893415, Val RMSE: 3.809214
+[20/100] Train loss: 0.170015, Val composite loss: 0.164437, Val MAE: 2.918210, Val RMSE: 3.864554
+[21/100] Train loss: 0.169209, Val composite loss: 0.160998, Val MAE: 2.863272, Val RMSE: 3.786704
+[22/100] Train loss: 0.168739, Val composite loss: 0.163169, Val MAE: 2.919217, Val RMSE: 3.814182
+[23/100] Train loss: 0.168653, Val composite loss: 0.162212, Val MAE: 2.888094, Val RMSE: 3.806162
+[24/100] Train loss: 0.168497, Val composite loss: 0.160936, Val MAE: 2.863304, Val RMSE: 3.777550
+[25/100] Train loss: 0.168293, Val composite loss: 0.162017, Val MAE: 2.884912, Val RMSE: 3.795799
+[26/100] Train loss: 0.167843, Val composite loss: 0.161203, Val MAE: 2.867348, Val RMSE: 3.786939
+[27/100] Train loss: 0.167902, Val composite loss: 0.161994, Val MAE: 2.891135, Val RMSE: 3.794576
+[28/100] Train loss: 0.168097, Val composite loss: 0.161392, Val MAE: 2.878233, Val RMSE: 3.786150
+[29/100] Train loss: 0.167634, Val composite loss: 0.161401, Val MAE: 2.871300, Val RMSE: 3.785158
+[30/100] Train loss: 0.166735, Val composite loss: 0.160248, Val MAE: 2.844695, Val RMSE: 3.768659
+[31/100] Train loss: 0.166714, Val composite loss: 0.161762, Val MAE: 2.862513, Val RMSE: 3.823355
+[32/100] Train loss: 0.166801, Val composite loss: 0.160368, Val MAE: 2.850032, Val RMSE: 3.767636
+[33/100] Train loss: 0.166426, Val composite loss: 0.160691, Val MAE: 2.856128, Val RMSE: 3.778946
+[34/100] Train loss: 0.166559, Val composite loss: 0.160438, Val MAE: 2.846277, Val RMSE: 3.780984
+[35/100] Train loss: 0.166173, Val composite loss: 0.160610, Val MAE: 2.856751, Val RMSE: 3.769455
+[36/100] Train loss: 0.165478, Val composite loss: 0.159983, Val MAE: 2.844437, Val RMSE: 3.759182
+[37/100] Train loss: 0.165415, Val composite loss: 0.160040, Val MAE: 2.837468, Val RMSE: 3.773061
+[38/100] Train loss: 0.165352, Val composite loss: 0.160570, Val MAE: 2.850025, Val RMSE: 3.781157
+[39/100] Train loss: 0.165194, Val composite loss: 0.159908, Val MAE: 2.835659, Val RMSE: 3.767553
+[40/100] Train loss: 0.165082, Val composite loss: 0.161683, Val MAE: 2.881037, Val RMSE: 3.792539
+[41/100] Train loss: 0.164914, Val composite loss: 0.161986, Val MAE: 2.872842, Val RMSE: 3.824068
+[42/100] Train loss: 0.164763, Val composite loss: 0.160633, Val MAE: 2.842657, Val RMSE: 3.786858
+[43/100] Train loss: 0.164613, Val composite loss: 0.160458, Val MAE: 2.844488, Val RMSE: 3.784012
+[44/100] Train loss: 0.164478, Val composite loss: 0.160385, Val MAE: 2.845595, Val RMSE: 3.778257
+[45/100] Train loss: 0.163987, Val composite loss: 0.160829, Val MAE: 2.855152, Val RMSE: 3.788764
+[46/100] Train loss: 0.163819, Val composite loss: 0.160149, Val MAE: 2.849342, Val RMSE: 3.762570
+[47/100] Train loss: 0.163613, Val composite loss: 0.160127, Val MAE: 2.842285, Val RMSE: 3.769906
+[48/100] Train loss: 0.163674, Val composite loss: 0.160221, Val MAE: 2.844594, Val RMSE: 3.778315
+[49/100] Train loss: 0.163294, Val composite loss: 0.161256, Val MAE: 2.869234, Val RMSE: 3.786742
+[50/100] Train loss: 0.162958, Val composite loss: 0.160447, Val MAE: 2.854057, Val RMSE: 3.772759
+Selected epoch: 39
+Test MAE: 3.034370
+Test RMSE: 4.056547
+
+**------ Seed 4/15 ------**
+[1/100] Train loss: 0.219055, Val composite loss: 0.181928, Val MAE: 3.264802, Val RMSE: 4.224813
+[2/100] Train loss: 0.188262, Val composite loss: 0.171614, Val MAE: 3.055933, Val RMSE: 4.059740
+[3/100] Train loss: 0.181831, Val composite loss: 0.168917, Val MAE: 3.011057, Val RMSE: 3.958574
+[4/100] Train loss: 0.179189, Val composite loss: 0.166149, Val MAE: 2.958941, Val RMSE: 3.903102
+[5/100] Train loss: 0.177059, Val composite loss: 0.166064, Val MAE: 2.965744, Val RMSE: 3.908693
+[6/100] Train loss: 0.175202, Val composite loss: 0.164384, Val MAE: 2.924840, Val RMSE: 3.868269
+[7/100] Train loss: 0.175036, Val composite loss: 0.166534, Val MAE: 2.980360, Val RMSE: 3.881788
+[8/100] Train loss: 0.174025, Val composite loss: 0.164161, Val MAE: 2.916753, Val RMSE: 3.862069
+[9/100] Train loss: 0.173139, Val composite loss: 0.166801, Val MAE: 2.963610, Val RMSE: 3.928507
+[10/100] Train loss: 0.172875, Val composite loss: 0.162960, Val MAE: 2.894991, Val RMSE: 3.834935
+[11/100] Train loss: 0.172301, Val composite loss: 0.164791, Val MAE: 2.944018, Val RMSE: 3.867224
+[12/100] Train loss: 0.171620, Val composite loss: 0.163094, Val MAE: 2.912357, Val RMSE: 3.818551
+[13/100] Train loss: 0.171899, Val composite loss: 0.162101, Val MAE: 2.880980, Val RMSE: 3.805974
+[14/100] Train loss: 0.171058, Val composite loss: 0.162603, Val MAE: 2.902361, Val RMSE: 3.799822
+[15/100] Train loss: 0.170485, Val composite loss: 0.165555, Val MAE: 2.962369, Val RMSE: 3.857028
+[16/100] Train loss: 0.170388, Val composite loss: 0.162476, Val MAE: 2.893574, Val RMSE: 3.811642
+[17/100] Train loss: 0.170384, Val composite loss: 0.162347, Val MAE: 2.877984, Val RMSE: 3.827832
+[18/100] Train loss: 0.170106, Val composite loss: 0.163322, Val MAE: 2.898853, Val RMSE: 3.849861
+[19/100] Train loss: 0.169064, Val composite loss: 0.162333, Val MAE: 2.884768, Val RMSE: 3.806152
+[20/100] Train loss: 0.168891, Val composite loss: 0.161501, Val MAE: 2.871966, Val RMSE: 3.798281
+[21/100] Train loss: 0.168427, Val composite loss: 0.161634, Val MAE: 2.876604, Val RMSE: 3.801751
+[22/100] Train loss: 0.168447, Val composite loss: 0.161393, Val MAE: 2.856776, Val RMSE: 3.809371
+[23/100] Train loss: 0.167995, Val composite loss: 0.162578, Val MAE: 2.888590, Val RMSE: 3.843410
+[24/100] Train loss: 0.167890, Val composite loss: 0.162474, Val MAE: 2.896307, Val RMSE: 3.803061
+[25/100] Train loss: 0.167740, Val composite loss: 0.160980, Val MAE: 2.863246, Val RMSE: 3.790241
+[26/100] Train loss: 0.167460, Val composite loss: 0.160400, Val MAE: 2.847787, Val RMSE: 3.772562
+[27/100] Train loss: 0.167170, Val composite loss: 0.163447, Val MAE: 2.904119, Val RMSE: 3.836011
+[28/100] Train loss: 0.167169, Val composite loss: 0.160828, Val MAE: 2.855688, Val RMSE: 3.785577
+[29/100] Train loss: 0.167085, Val composite loss: 0.160665, Val MAE: 2.854470, Val RMSE: 3.782140
+[30/100] Train loss: 0.166886, Val composite loss: 0.163280, Val MAE: 2.908110, Val RMSE: 3.821300
+[31/100] Train loss: 0.166618, Val composite loss: 0.161127, Val MAE: 2.862439, Val RMSE: 3.790380
+[32/100] Train loss: 0.165916, Val composite loss: 0.160234, Val MAE: 2.844406, Val RMSE: 3.769414
+[33/100] Train loss: 0.165672, Val composite loss: 0.161035, Val MAE: 2.865398, Val RMSE: 3.772001
+[34/100] Train loss: 0.165617, Val composite loss: 0.160456, Val MAE: 2.846055, Val RMSE: 3.784466
+[35/100] Train loss: 0.165589, Val composite loss: 0.160636, Val MAE: 2.859631, Val RMSE: 3.770603
+[36/100] Train loss: 0.165402, Val composite loss: 0.160929, Val MAE: 2.862740, Val RMSE: 3.791803
+[37/100] Train loss: 0.165318, Val composite loss: 0.159690, Val MAE: 2.840926, Val RMSE: 3.755889
+[38/100] Train loss: 0.165173, Val composite loss: 0.160372, Val MAE: 2.846052, Val RMSE: 3.775720
+[39/100] Train loss: 0.165069, Val composite loss: 0.160846, Val MAE: 2.859918, Val RMSE: 3.776357
+[40/100] Train loss: 0.164910, Val composite loss: 0.159973, Val MAE: 2.835756, Val RMSE: 3.773899
+[41/100] Train loss: 0.164606, Val composite loss: 0.160904, Val MAE: 2.864416, Val RMSE: 3.780863
+[42/100] Train loss: 0.164386, Val composite loss: 0.161287, Val MAE: 2.851762, Val RMSE: 3.803543
+[43/100] Train loss: 0.163809, Val composite loss: 0.160446, Val MAE: 2.855329, Val RMSE: 3.768196
+[44/100] Train loss: 0.163435, Val composite loss: 0.160522, Val MAE: 2.850482, Val RMSE: 3.778355
+[45/100] Train loss: 0.163545, Val composite loss: 0.159816, Val MAE: 2.835562, Val RMSE: 3.765097
+[46/100] Train loss: 0.163215, Val composite loss: 0.160597, Val MAE: 2.859623, Val RMSE: 3.771299
+[47/100] Train loss: 0.162987, Val composite loss: 0.159881, Val MAE: 2.843617, Val RMSE: 3.757337
+[48/100] Train loss: 0.162344, Val composite loss: 0.160079, Val MAE: 2.843505, Val RMSE: 3.774283
+Selected epoch: 37
+Test MAE: 3.024364
+Test RMSE: 4.025228
+
+**------ Seed 5/15 ------**
+[1/100] Train loss: 0.220983, Val composite loss: 0.179396, Val MAE: 3.207282, Val RMSE: 4.172995
+[2/100] Train loss: 0.187239, Val composite loss: 0.178220, Val MAE: 3.172007, Val RMSE: 4.212157
+[3/100] Train loss: 0.181179, Val composite loss: 0.169683, Val MAE: 3.038754, Val RMSE: 3.968007
+[4/100] Train loss: 0.178195, Val composite loss: 0.167133, Val MAE: 2.981672, Val RMSE: 3.924822
+[5/100] Train loss: 0.176627, Val composite loss: 0.164961, Val MAE: 2.933751, Val RMSE: 3.880519
+[6/100] Train loss: 0.175690, Val composite loss: 0.167889, Val MAE: 3.009920, Val RMSE: 3.924544
+[7/100] Train loss: 0.174735, Val composite loss: 0.166434, Val MAE: 2.971137, Val RMSE: 3.886566
+[8/100] Train loss: 0.173792, Val composite loss: 0.164429, Val MAE: 2.916597, Val RMSE: 3.884499
+[9/100] Train loss: 0.173352, Val composite loss: 0.165517, Val MAE: 2.924950, Val RMSE: 3.908375
+[10/100] Train loss: 0.172378, Val composite loss: 0.163399, Val MAE: 2.915324, Val RMSE: 3.830058
+[11/100] Train loss: 0.171852, Val composite loss: 0.164361, Val MAE: 2.936607, Val RMSE: 3.850533
+[12/100] Train loss: 0.171797, Val composite loss: 0.162592, Val MAE: 2.890554, Val RMSE: 3.817154
+[13/100] Train loss: 0.171247, Val composite loss: 0.162267, Val MAE: 2.876895, Val RMSE: 3.827606
+[14/100] Train loss: 0.170928, Val composite loss: 0.163124, Val MAE: 2.903421, Val RMSE: 3.829281
+[15/100] Train loss: 0.170143, Val composite loss: 0.161386, Val MAE: 2.869809, Val RMSE: 3.791061
+[16/100] Train loss: 0.170108, Val composite loss: 0.163616, Val MAE: 2.894112, Val RMSE: 3.867066
+[17/100] Train loss: 0.170223, Val composite loss: 0.162188, Val MAE: 2.891151, Val RMSE: 3.810591
+[18/100] Train loss: 0.170062, Val composite loss: 0.162126, Val MAE: 2.890853, Val RMSE: 3.803349
+[19/100] Train loss: 0.169357, Val composite loss: 0.162739, Val MAE: 2.905008, Val RMSE: 3.803850
+[20/100] Train loss: 0.169022, Val composite loss: 0.161407, Val MAE: 2.862812, Val RMSE: 3.805989
+[21/100] Train loss: 0.168400, Val composite loss: 0.161797, Val MAE: 2.888152, Val RMSE: 3.787301
+[22/100] Train loss: 0.168100, Val composite loss: 0.163155, Val MAE: 2.916647, Val RMSE: 3.817083
+[23/100] Train loss: 0.167838, Val composite loss: 0.160780, Val MAE: 2.863268, Val RMSE: 3.768688
+[24/100] Train loss: 0.167796, Val composite loss: 0.164799, Val MAE: 2.953957, Val RMSE: 3.838687
+[25/100] Train loss: 0.167567, Val composite loss: 0.161565, Val MAE: 2.862499, Val RMSE: 3.814333
+[26/100] Train loss: 0.167597, Val composite loss: 0.161335, Val MAE: 2.867823, Val RMSE: 3.801883
+[27/100] Train loss: 0.167159, Val composite loss: 0.161039, Val MAE: 2.867546, Val RMSE: 3.777907
+[28/100] Train loss: 0.167055, Val composite loss: 0.160312, Val MAE: 2.854089, Val RMSE: 3.766492
+[29/100] Train loss: 0.166726, Val composite loss: 0.160658, Val MAE: 2.848322, Val RMSE: 3.792005
+[30/100] Train loss: 0.166541, Val composite loss: 0.160186, Val MAE: 2.848685, Val RMSE: 3.766797
+[31/100] Train loss: 0.166742, Val composite loss: 0.160664, Val MAE: 2.850197, Val RMSE: 3.777745
+[32/100] Train loss: 0.166251, Val composite loss: 0.161069, Val MAE: 2.858587, Val RMSE: 3.798537
+[33/100] Train loss: 0.166065, Val composite loss: 0.160059, Val MAE: 2.840530, Val RMSE: 3.776542
+[34/100] Train loss: 0.165683, Val composite loss: 0.162083, Val MAE: 2.885570, Val RMSE: 3.817136
+[35/100] Train loss: 0.165684, Val composite loss: 0.161291, Val MAE: 2.863333, Val RMSE: 3.798522
+[36/100] Train loss: 0.165804, Val composite loss: 0.161180, Val MAE: 2.872513, Val RMSE: 3.773543
+[37/100] Train loss: 0.165532, Val composite loss: 0.160303, Val MAE: 2.852529, Val RMSE: 3.767313
+[38/100] Train loss: 0.165069, Val composite loss: 0.161007, Val MAE: 2.871663, Val RMSE: 3.776431
+[39/100] Train loss: 0.164440, Val composite loss: 0.159743, Val MAE: 2.836584, Val RMSE: 3.756808
+[40/100] Train loss: 0.163897, Val composite loss: 0.159907, Val MAE: 2.844538, Val RMSE: 3.753673
+[41/100] Train loss: 0.164085, Val composite loss: 0.159709, Val MAE: 2.838296, Val RMSE: 3.756386
+[42/100] Train loss: 0.163682, Val composite loss: 0.161296, Val MAE: 2.855400, Val RMSE: 3.810236
+[43/100] Train loss: 0.163645, Val composite loss: 0.160086, Val MAE: 2.846273, Val RMSE: 3.758740
+[44/100] Train loss: 0.163486, Val composite loss: 0.160248, Val MAE: 2.855119, Val RMSE: 3.761460
+[45/100] Train loss: 0.163270, Val composite loss: 0.161698, Val MAE: 2.874469, Val RMSE: 3.814376
+[46/100] Train loss: 0.162943, Val composite loss: 0.161822, Val MAE: 2.887510, Val RMSE: 3.806558
+[47/100] Train loss: 0.162155, Val composite loss: 0.160961, Val MAE: 2.852074, Val RMSE: 3.801154
+[48/100] Train loss: 0.162058, Val composite loss: 0.160361, Val MAE: 2.845593, Val RMSE: 3.783189
+[49/100] Train loss: 0.161692, Val composite loss: 0.161353, Val MAE: 2.872423, Val RMSE: 3.797269
+[50/100] Train loss: 0.161614, Val composite loss: 0.161575, Val MAE: 2.879265, Val RMSE: 3.795673
+[51/100] Train loss: 0.161408, Val composite loss: 0.161255, Val MAE: 2.862104, Val RMSE: 3.795130
+[52/100] Train loss: 0.160664, Val composite loss: 0.160453, Val MAE: 2.849961, Val RMSE: 3.785726
+Selected epoch: 41
+Test MAE: 3.033908
+Test RMSE: 4.036565
+
+**------ Seed 6/15 ------**
+[1/100] Train loss: 0.218803, Val composite loss: 0.180589, Val MAE: 3.228137, Val RMSE: 4.196139
+[2/100] Train loss: 0.188495, Val composite loss: 0.169238, Val MAE: 3.021556, Val RMSE: 3.979970
+[3/100] Train loss: 0.181450, Val composite loss: 0.166682, Val MAE: 2.978138, Val RMSE: 3.912154
+[4/100] Train loss: 0.178487, Val composite loss: 0.167224, Val MAE: 2.977896, Val RMSE: 3.939804
+[5/100] Train loss: 0.176298, Val composite loss: 0.166881, Val MAE: 2.961749, Val RMSE: 3.941443
+[6/100] Train loss: 0.175648, Val composite loss: 0.166644, Val MAE: 2.983768, Val RMSE: 3.891080
+[7/100] Train loss: 0.174902, Val composite loss: 0.164045, Val MAE: 2.921052, Val RMSE: 3.851127
+[8/100] Train loss: 0.173580, Val composite loss: 0.163629, Val MAE: 2.914983, Val RMSE: 3.848042
+[9/100] Train loss: 0.172882, Val composite loss: 0.162977, Val MAE: 2.896831, Val RMSE: 3.830501
+[10/100] Train loss: 0.172335, Val composite loss: 0.162960, Val MAE: 2.903306, Val RMSE: 3.823308
+[11/100] Train loss: 0.172178, Val composite loss: 0.164718, Val MAE: 2.920723, Val RMSE: 3.877611
+[12/100] Train loss: 0.172144, Val composite loss: 0.163050, Val MAE: 2.900080, Val RMSE: 3.832288
+[13/100] Train loss: 0.171370, Val composite loss: 0.162420, Val MAE: 2.893958, Val RMSE: 3.808646
+[14/100] Train loss: 0.170893, Val composite loss: 0.163566, Val MAE: 2.896571, Val RMSE: 3.861093
+[15/100] Train loss: 0.170639, Val composite loss: 0.162129, Val MAE: 2.879997, Val RMSE: 3.814864
+[16/100] Train loss: 0.170084, Val composite loss: 0.161445, Val MAE: 2.867367, Val RMSE: 3.799636
+[17/100] Train loss: 0.169901, Val composite loss: 0.162080, Val MAE: 2.873295, Val RMSE: 3.813205
+[18/100] Train loss: 0.169991, Val composite loss: 0.161591, Val MAE: 2.867281, Val RMSE: 3.811591
+[19/100] Train loss: 0.169376, Val composite loss: 0.163988, Val MAE: 2.918503, Val RMSE: 3.845277
+[20/100] Train loss: 0.169553, Val composite loss: 0.162381, Val MAE: 2.881810, Val RMSE: 3.821809
+[21/100] Train loss: 0.169193, Val composite loss: 0.162138, Val MAE: 2.879543, Val RMSE: 3.819928
+[22/100] Train loss: 0.168305, Val composite loss: 0.161887, Val MAE: 2.874748, Val RMSE: 3.818902
+[23/100] Train loss: 0.168094, Val composite loss: 0.162642, Val MAE: 2.906776, Val RMSE: 3.808355
+[24/100] Train loss: 0.167748, Val composite loss: 0.160621, Val MAE: 2.849715, Val RMSE: 3.789941
+[25/100] Train loss: 0.167567, Val composite loss: 0.160683, Val MAE: 2.858175, Val RMSE: 3.768242
+[26/100] Train loss: 0.167388, Val composite loss: 0.160696, Val MAE: 2.849206, Val RMSE: 3.785511
+[27/100] Train loss: 0.167316, Val composite loss: 0.161343, Val MAE: 2.880165, Val RMSE: 3.772926
+[28/100] Train loss: 0.167072, Val composite loss: 0.161806, Val MAE: 2.888302, Val RMSE: 3.776571
+[29/100] Train loss: 0.166880, Val composite loss: 0.161367, Val MAE: 2.857396, Val RMSE: 3.805848
+[30/100] Train loss: 0.166252, Val composite loss: 0.161216, Val MAE: 2.874135, Val RMSE: 3.769281
+[31/100] Train loss: 0.166112, Val composite loss: 0.160661, Val MAE: 2.858331, Val RMSE: 3.775384
+[32/100] Train loss: 0.165919, Val composite loss: 0.159727, Val MAE: 2.834862, Val RMSE: 3.763174
+[33/100] Train loss: 0.165757, Val composite loss: 0.160069, Val MAE: 2.835658, Val RMSE: 3.768855
+[34/100] Train loss: 0.165604, Val composite loss: 0.159493, Val MAE: 2.829853, Val RMSE: 3.755971
+[35/100] Train loss: 0.165424, Val composite loss: 0.160155, Val MAE: 2.837361, Val RMSE: 3.771154
+[36/100] Train loss: 0.165118, Val composite loss: 0.159811, Val MAE: 2.831794, Val RMSE: 3.771306
+[37/100] Train loss: 0.165157, Val composite loss: 0.160453, Val MAE: 2.846172, Val RMSE: 3.776932
+[38/100] Train loss: 0.164822, Val composite loss: 0.160663, Val MAE: 2.859550, Val RMSE: 3.768131
+[39/100] Train loss: 0.164863, Val composite loss: 0.161242, Val MAE: 2.879402, Val RMSE: 3.778253
+[40/100] Train loss: 0.164140, Val composite loss: 0.159667, Val MAE: 2.836369, Val RMSE: 3.752052
+[41/100] Train loss: 0.164304, Val composite loss: 0.159742, Val MAE: 2.837307, Val RMSE: 3.753618
+[42/100] Train loss: 0.163893, Val composite loss: 0.159993, Val MAE: 2.836742, Val RMSE: 3.774393
+[43/100] Train loss: 0.163860, Val composite loss: 0.160651, Val MAE: 2.850391, Val RMSE: 3.780275
+[44/100] Train loss: 0.163860, Val composite loss: 0.160184, Val MAE: 2.844249, Val RMSE: 3.763449
+[45/100] Train loss: 0.163351, Val composite loss: 0.159338, Val MAE: 2.825742, Val RMSE: 3.755582
+[46/100] Train loss: 0.163155, Val composite loss: 0.159499, Val MAE: 2.826873, Val RMSE: 3.758960
+[47/100] Train loss: 0.162824, Val composite loss: 0.160474, Val MAE: 2.849002, Val RMSE: 3.778654
+[48/100] Train loss: 0.162736, Val composite loss: 0.159478, Val MAE: 2.834639, Val RMSE: 3.748383
+[49/100] Train loss: 0.162672, Val composite loss: 0.159421, Val MAE: 2.834434, Val RMSE: 3.750023
+[50/100] Train loss: 0.162438, Val composite loss: 0.159348, Val MAE: 2.825569, Val RMSE: 3.760957
+[51/100] Train loss: 0.162143, Val composite loss: 0.159651, Val MAE: 2.837031, Val RMSE: 3.757567
+[52/100] Train loss: 0.161996, Val composite loss: 0.160036, Val MAE: 2.844456, Val RMSE: 3.759361
+[53/100] Train loss: 0.161885, Val composite loss: 0.159232, Val MAE: 2.825706, Val RMSE: 3.752643
+[54/100] Train loss: 0.161698, Val composite loss: 0.160743, Val MAE: 2.858277, Val RMSE: 3.783442
+[55/100] Train loss: 0.161663, Val composite loss: 0.160680, Val MAE: 2.861441, Val RMSE: 3.774888
+[56/100] Train loss: 0.161485, Val composite loss: 0.159864, Val MAE: 2.839727, Val RMSE: 3.766114
+[57/100] Train loss: 0.161397, Val composite loss: 0.159911, Val MAE: 2.836423, Val RMSE: 3.771524
+[58/100] Train loss: 0.161199, Val composite loss: 0.160216, Val MAE: 2.842229, Val RMSE: 3.774490
+[59/100] Train loss: 0.160645, Val composite loss: 0.159726, Val MAE: 2.835592, Val RMSE: 3.760968
+[60/100] Train loss: 0.160606, Val composite loss: 0.160722, Val MAE: 2.857636, Val RMSE: 3.783139
+[61/100] Train loss: 0.160438, Val composite loss: 0.161052, Val MAE: 2.867633, Val RMSE: 3.781813
+[62/100] Train loss: 0.160219, Val composite loss: 0.160999, Val MAE: 2.855505, Val RMSE: 3.795244
+[63/100] Train loss: 0.160222, Val composite loss: 0.160467, Val MAE: 2.847306, Val RMSE: 3.779696
+[64/100] Train loss: 0.159770, Val composite loss: 0.159948, Val MAE: 2.839794, Val RMSE: 3.767706
+Selected epoch: 53
+Test MAE: 3.027637
+Test RMSE: 4.038177
+
+**------ Seed 7/15 ------**
+[1/100] Train loss: 0.217698, Val composite loss: 0.179492, Val MAE: 3.219651, Val RMSE: 4.151198
+[2/100] Train loss: 0.187963, Val composite loss: 0.172126, Val MAE: 3.072850, Val RMSE: 4.019521
+[3/100] Train loss: 0.181868, Val composite loss: 0.168790, Val MAE: 3.002810, Val RMSE: 3.967389
+[4/100] Train loss: 0.179337, Val composite loss: 0.166737, Val MAE: 2.974790, Val RMSE: 3.909465
+[5/100] Train loss: 0.177272, Val composite loss: 0.165144, Val MAE: 2.932409, Val RMSE: 3.891289
+[6/100] Train loss: 0.175976, Val composite loss: 0.164973, Val MAE: 2.944405, Val RMSE: 3.865261
+[7/100] Train loss: 0.175079, Val composite loss: 0.164564, Val MAE: 2.926839, Val RMSE: 3.862713
+[8/100] Train loss: 0.174178, Val composite loss: 0.165335, Val MAE: 2.933109, Val RMSE: 3.893633
+[9/100] Train loss: 0.173991, Val composite loss: 0.166635, Val MAE: 2.955126, Val RMSE: 3.938007
+[10/100] Train loss: 0.173102, Val composite loss: 0.164317, Val MAE: 2.915420, Val RMSE: 3.863006
+[11/100] Train loss: 0.172535, Val composite loss: 0.165228, Val MAE: 2.942236, Val RMSE: 3.874975
+[12/100] Train loss: 0.171986, Val composite loss: 0.163372, Val MAE: 2.907287, Val RMSE: 3.840136
+[13/100] Train loss: 0.171597, Val composite loss: 0.162959, Val MAE: 2.891696, Val RMSE: 3.830323
+[14/100] Train loss: 0.171102, Val composite loss: 0.162727, Val MAE: 2.896018, Val RMSE: 3.822617
+[15/100] Train loss: 0.170909, Val composite loss: 0.162846, Val MAE: 2.892949, Val RMSE: 3.831865
+[16/100] Train loss: 0.170305, Val composite loss: 0.163407, Val MAE: 2.909294, Val RMSE: 3.817631
+[17/100] Train loss: 0.170050, Val composite loss: 0.161932, Val MAE: 2.873631, Val RMSE: 3.801852
+[18/100] Train loss: 0.169927, Val composite loss: 0.161758, Val MAE: 2.875363, Val RMSE: 3.800400
+[19/100] Train loss: 0.169680, Val composite loss: 0.162782, Val MAE: 2.906392, Val RMSE: 3.812201
+[20/100] Train loss: 0.169470, Val composite loss: 0.163780, Val MAE: 2.930093, Val RMSE: 3.821316
+[21/100] Train loss: 0.169037, Val composite loss: 0.161995, Val MAE: 2.879447, Val RMSE: 3.809636
+[22/100] Train loss: 0.168948, Val composite loss: 0.162220, Val MAE: 2.881094, Val RMSE: 3.814749
+[23/100] Train loss: 0.168416, Val composite loss: 0.160896, Val MAE: 2.857204, Val RMSE: 3.781667
+[24/100] Train loss: 0.168198, Val composite loss: 0.162000, Val MAE: 2.888974, Val RMSE: 3.793890
+[25/100] Train loss: 0.167772, Val composite loss: 0.160723, Val MAE: 2.857077, Val RMSE: 3.783434
+[26/100] Train loss: 0.167906, Val composite loss: 0.160949, Val MAE: 2.858696, Val RMSE: 3.783344
+[27/100] Train loss: 0.167725, Val composite loss: 0.162884, Val MAE: 2.903481, Val RMSE: 3.823941
+[28/100] Train loss: 0.167477, Val composite loss: 0.162504, Val MAE: 2.883266, Val RMSE: 3.833220
+[29/100] Train loss: 0.167206, Val composite loss: 0.160979, Val MAE: 2.855275, Val RMSE: 3.798748
+[30/100] Train loss: 0.166832, Val composite loss: 0.162132, Val MAE: 2.882751, Val RMSE: 3.808429
+[31/100] Train loss: 0.165798, Val composite loss: 0.160392, Val MAE: 2.848638, Val RMSE: 3.775568
+[32/100] Train loss: 0.165800, Val composite loss: 0.160551, Val MAE: 2.850600, Val RMSE: 3.779345
+[33/100] Train loss: 0.165777, Val composite loss: 0.160493, Val MAE: 2.851576, Val RMSE: 3.767837
+[34/100] Train loss: 0.165376, Val composite loss: 0.160391, Val MAE: 2.847507, Val RMSE: 3.776464
+[35/100] Train loss: 0.165241, Val composite loss: 0.160769, Val MAE: 2.860816, Val RMSE: 3.774891
+[36/100] Train loss: 0.165077, Val composite loss: 0.160631, Val MAE: 2.860229, Val RMSE: 3.773714
+[37/100] Train loss: 0.164503, Val composite loss: 0.163791, Val MAE: 2.925837, Val RMSE: 3.837533
+[38/100] Train loss: 0.164085, Val composite loss: 0.160914, Val MAE: 2.865882, Val RMSE: 3.770776
+[39/100] Train loss: 0.164042, Val composite loss: 0.161634, Val MAE: 2.876204, Val RMSE: 3.789316
+[40/100] Train loss: 0.163921, Val composite loss: 0.159975, Val MAE: 2.837912, Val RMSE: 3.766980
+[41/100] Train loss: 0.163695, Val composite loss: 0.161113, Val MAE: 2.859502, Val RMSE: 3.791770
+[42/100] Train loss: 0.163761, Val composite loss: 0.161903, Val MAE: 2.882165, Val RMSE: 3.804361
+[43/100] Train loss: 0.163278, Val composite loss: 0.160162, Val MAE: 2.842045, Val RMSE: 3.772357
+[44/100] Train loss: 0.162988, Val composite loss: 0.161305, Val MAE: 2.872613, Val RMSE: 3.787391
+[45/100] Train loss: 0.162589, Val composite loss: 0.160702, Val MAE: 2.855731, Val RMSE: 3.779724
+[46/100] Train loss: 0.162220, Val composite loss: 0.160924, Val MAE: 2.861297, Val RMSE: 3.778470
+[47/100] Train loss: 0.161942, Val composite loss: 0.160476, Val MAE: 2.842615, Val RMSE: 3.786764
+[48/100] Train loss: 0.161388, Val composite loss: 0.159857, Val MAE: 2.833449, Val RMSE: 3.772597
+[49/100] Train loss: 0.161469, Val composite loss: 0.161387, Val MAE: 2.863427, Val RMSE: 3.802411
+[50/100] Train loss: 0.161244, Val composite loss: 0.162267, Val MAE: 2.885810, Val RMSE: 3.813542
+[51/100] Train loss: 0.161232, Val composite loss: 0.161271, Val MAE: 2.859007, Val RMSE: 3.804907
+[52/100] Train loss: 0.160976, Val composite loss: 0.161177, Val MAE: 2.858764, Val RMSE: 3.793560
+[53/100] Train loss: 0.160591, Val composite loss: 0.162101, Val MAE: 2.874674, Val RMSE: 3.816143
+[54/100] Train loss: 0.160095, Val composite loss: 0.160554, Val MAE: 2.854079, Val RMSE: 3.777543
+[55/100] Train loss: 0.159941, Val composite loss: 0.160376, Val MAE: 2.843002, Val RMSE: 3.781341
+[56/100] Train loss: 0.159706, Val composite loss: 0.161899, Val MAE: 2.879351, Val RMSE: 3.803906
+[57/100] Train loss: 0.159409, Val composite loss: 0.162398, Val MAE: 2.881394, Val RMSE: 3.831247
+[58/100] Train loss: 0.159268, Val composite loss: 0.162218, Val MAE: 2.881462, Val RMSE: 3.825444
+[59/100] Train loss: 0.158702, Val composite loss: 0.161416, Val MAE: 2.862088, Val RMSE: 3.809664
+Selected epoch: 48
+Test MAE: 3.036358
+Test RMSE: 4.067764
+
+**------ Seed 8/15 ------**
+[1/100] Train loss: 0.220563, Val composite loss: 0.182758, Val MAE: 3.275183, Val RMSE: 4.241340
+[2/100] Train loss: 0.187875, Val composite loss: 0.170994, Val MAE: 3.062474, Val RMSE: 4.005395
+[3/100] Train loss: 0.182058, Val composite loss: 0.168952, Val MAE: 3.021040, Val RMSE: 3.950875
+[4/100] Train loss: 0.179118, Val composite loss: 0.168545, Val MAE: 3.009475, Val RMSE: 3.948630
+[5/100] Train loss: 0.177492, Val composite loss: 0.165277, Val MAE: 2.943806, Val RMSE: 3.887770
+[6/100] Train loss: 0.175668, Val composite loss: 0.165790, Val MAE: 2.945442, Val RMSE: 3.898967
+[7/100] Train loss: 0.174899, Val composite loss: 0.163914, Val MAE: 2.914269, Val RMSE: 3.851954
+[8/100] Train loss: 0.174334, Val composite loss: 0.166735, Val MAE: 2.990473, Val RMSE: 3.878251
+[9/100] Train loss: 0.173577, Val composite loss: 0.166364, Val MAE: 2.983127, Val RMSE: 3.877153
+[10/100] Train loss: 0.173084, Val composite loss: 0.163942, Val MAE: 2.920795, Val RMSE: 3.835001
+[11/100] Train loss: 0.172223, Val composite loss: 0.167929, Val MAE: 2.997439, Val RMSE: 3.917287
+[12/100] Train loss: 0.172490, Val composite loss: 0.165756, Val MAE: 2.964582, Val RMSE: 3.865934
+[13/100] Train loss: 0.171253, Val composite loss: 0.164157, Val MAE: 2.929977, Val RMSE: 3.843105
+[14/100] Train loss: 0.170857, Val composite loss: 0.162838, Val MAE: 2.902298, Val RMSE: 3.814823
+[15/100] Train loss: 0.170544, Val composite loss: 0.161898, Val MAE: 2.877114, Val RMSE: 3.808597
+[16/100] Train loss: 0.170312, Val composite loss: 0.162169, Val MAE: 2.873098, Val RMSE: 3.820031
+[17/100] Train loss: 0.170303, Val composite loss: 0.162835, Val MAE: 2.893156, Val RMSE: 3.835345
+[18/100] Train loss: 0.170014, Val composite loss: 0.163306, Val MAE: 2.906392, Val RMSE: 3.829453
+[19/100] Train loss: 0.169426, Val composite loss: 0.162081, Val MAE: 2.886080, Val RMSE: 3.797381
+[20/100] Train loss: 0.169299, Val composite loss: 0.163609, Val MAE: 2.926026, Val RMSE: 3.823922
+[21/100] Train loss: 0.168603, Val composite loss: 0.162416, Val MAE: 2.881818, Val RMSE: 3.817837
+[22/100] Train loss: 0.168308, Val composite loss: 0.161153, Val MAE: 2.859921, Val RMSE: 3.797205
+[23/100] Train loss: 0.168126, Val composite loss: 0.161144, Val MAE: 2.861012, Val RMSE: 3.790643
+[24/100] Train loss: 0.168057, Val composite loss: 0.162171, Val MAE: 2.878752, Val RMSE: 3.818339
+[25/100] Train loss: 0.167805, Val composite loss: 0.165071, Val MAE: 2.949697, Val RMSE: 3.868043
+[26/100] Train loss: 0.167779, Val composite loss: 0.161614, Val MAE: 2.874759, Val RMSE: 3.790964
+[27/100] Train loss: 0.167477, Val composite loss: 0.162233, Val MAE: 2.872873, Val RMSE: 3.826939
+[28/100] Train loss: 0.166839, Val composite loss: 0.161809, Val MAE: 2.875236, Val RMSE: 3.806734
+[29/100] Train loss: 0.166932, Val composite loss: 0.161483, Val MAE: 2.868745, Val RMSE: 3.793392
+[30/100] Train loss: 0.166559, Val composite loss: 0.164747, Val MAE: 2.949363, Val RMSE: 3.849315
+[31/100] Train loss: 0.166473, Val composite loss: 0.160550, Val MAE: 2.849348, Val RMSE: 3.782557
+[32/100] Train loss: 0.166436, Val composite loss: 0.161156, Val MAE: 2.856625, Val RMSE: 3.797663
+[33/100] Train loss: 0.166225, Val composite loss: 0.161074, Val MAE: 2.857808, Val RMSE: 3.793078
+[34/100] Train loss: 0.165944, Val composite loss: 0.162425, Val MAE: 2.892347, Val RMSE: 3.815017
+[35/100] Train loss: 0.165781, Val composite loss: 0.160910, Val MAE: 2.861615, Val RMSE: 3.777874
+[36/100] Train loss: 0.165582, Val composite loss: 0.160416, Val MAE: 2.849216, Val RMSE: 3.778606
+[37/100] Train loss: 0.165755, Val composite loss: 0.160904, Val MAE: 2.851244, Val RMSE: 3.792293
+[38/100] Train loss: 0.165578, Val composite loss: 0.161680, Val MAE: 2.874586, Val RMSE: 3.795909
+[39/100] Train loss: 0.165374, Val composite loss: 0.160777, Val MAE: 2.850039, Val RMSE: 3.789808
+[40/100] Train loss: 0.165368, Val composite loss: 0.161196, Val MAE: 2.865068, Val RMSE: 3.789882
+[41/100] Train loss: 0.165188, Val composite loss: 0.160931, Val MAE: 2.851468, Val RMSE: 3.805511
+[42/100] Train loss: 0.164481, Val composite loss: 0.161432, Val MAE: 2.872977, Val RMSE: 3.796570
+[43/100] Train loss: 0.164539, Val composite loss: 0.161119, Val MAE: 2.852237, Val RMSE: 3.802166
+[44/100] Train loss: 0.164108, Val composite loss: 0.160033, Val MAE: 2.842263, Val RMSE: 3.769735
+[45/100] Train loss: 0.164082, Val composite loss: 0.160097, Val MAE: 2.848488, Val RMSE: 3.763836
+[46/100] Train loss: 0.164027, Val composite loss: 0.160563, Val MAE: 2.853500, Val RMSE: 3.775200
+[47/100] Train loss: 0.163915, Val composite loss: 0.160045, Val MAE: 2.841255, Val RMSE: 3.766822
+[48/100] Train loss: 0.163681, Val composite loss: 0.160781, Val MAE: 2.847399, Val RMSE: 3.788402
+[49/100] Train loss: 0.163747, Val composite loss: 0.160236, Val MAE: 2.844090, Val RMSE: 3.772023
+[50/100] Train loss: 0.163029, Val composite loss: 0.160232, Val MAE: 2.842096, Val RMSE: 3.775570
+[51/100] Train loss: 0.162880, Val composite loss: 0.160242, Val MAE: 2.843561, Val RMSE: 3.780378
+[52/100] Train loss: 0.162794, Val composite loss: 0.160180, Val MAE: 2.840890, Val RMSE: 3.778596
+[53/100] Train loss: 0.162763, Val composite loss: 0.161028, Val MAE: 2.867865, Val RMSE: 3.782180
+[54/100] Train loss: 0.162537, Val composite loss: 0.159997, Val MAE: 2.838624, Val RMSE: 3.768276
+[55/100] Train loss: 0.162588, Val composite loss: 0.159973, Val MAE: 2.833504, Val RMSE: 3.779596
+[56/100] Train loss: 0.162355, Val composite loss: 0.160455, Val MAE: 2.847897, Val RMSE: 3.780032
+[57/100] Train loss: 0.161982, Val composite loss: 0.160019, Val MAE: 2.839646, Val RMSE: 3.774387
+[58/100] Train loss: 0.162114, Val composite loss: 0.160364, Val MAE: 2.848552, Val RMSE: 3.775648
+[59/100] Train loss: 0.161906, Val composite loss: 0.160912, Val MAE: 2.862318, Val RMSE: 3.783372
+[60/100] Train loss: 0.161753, Val composite loss: 0.160678, Val MAE: 2.857597, Val RMSE: 3.785201
+[61/100] Train loss: 0.161353, Val composite loss: 0.159918, Val MAE: 2.836589, Val RMSE: 3.773249
+[62/100] Train loss: 0.161205, Val composite loss: 0.160973, Val MAE: 2.859677, Val RMSE: 3.787444
+[63/100] Train loss: 0.161196, Val composite loss: 0.160284, Val MAE: 2.847481, Val RMSE: 3.778484
+[64/100] Train loss: 0.160943, Val composite loss: 0.160521, Val MAE: 2.845565, Val RMSE: 3.786105
+[65/100] Train loss: 0.161014, Val composite loss: 0.160918, Val MAE: 2.866875, Val RMSE: 3.777337
+[66/100] Train loss: 0.160788, Val composite loss: 0.160385, Val MAE: 2.848502, Val RMSE: 3.776029
+[67/100] Train loss: 0.160377, Val composite loss: 0.160915, Val MAE: 2.853931, Val RMSE: 3.792226
+[68/100] Train loss: 0.160295, Val composite loss: 0.161079, Val MAE: 2.863461, Val RMSE: 3.793775
+[69/100] Train loss: 0.160159, Val composite loss: 0.160877, Val MAE: 2.855579, Val RMSE: 3.789260
+[70/100] Train loss: 0.160112, Val composite loss: 0.160951, Val MAE: 2.854251, Val RMSE: 3.796613
+[71/100] Train loss: 0.160020, Val composite loss: 0.160595, Val MAE: 2.849990, Val RMSE: 3.784693
+[72/100] Train loss: 0.159626, Val composite loss: 0.160131, Val MAE: 2.839192, Val RMSE: 3.778298
+Selected epoch: 61
+Test MAE: 3.040527
+Test RMSE: 4.067857
+
+**------ Seed 9/15 ------**
+[1/100] Train loss: 0.218120, Val composite loss: 0.182697, Val MAE: 3.290566, Val RMSE: 4.212541
+[2/100] Train loss: 0.188768, Val composite loss: 0.170812, Val MAE: 3.047862, Val RMSE: 4.003719
+[3/100] Train loss: 0.181774, Val composite loss: 0.167342, Val MAE: 2.991390, Val RMSE: 3.918898
+[4/100] Train loss: 0.178601, Val composite loss: 0.169498, Val MAE: 3.017966, Val RMSE: 4.008638
+[5/100] Train loss: 0.176803, Val composite loss: 0.165456, Val MAE: 2.940704, Val RMSE: 3.894210
+[6/100] Train loss: 0.175474, Val composite loss: 0.165479, Val MAE: 2.940736, Val RMSE: 3.903821
+[7/100] Train loss: 0.174218, Val composite loss: 0.164309, Val MAE: 2.925847, Val RMSE: 3.857030
+[8/100] Train loss: 0.173751, Val composite loss: 0.167676, Val MAE: 3.012296, Val RMSE: 3.905366
+[9/100] Train loss: 0.173082, Val composite loss: 0.164575, Val MAE: 2.928893, Val RMSE: 3.863010
+[10/100] Train loss: 0.172696, Val composite loss: 0.163104, Val MAE: 2.910294, Val RMSE: 3.820500
+[11/100] Train loss: 0.171781, Val composite loss: 0.162347, Val MAE: 2.884425, Val RMSE: 3.822642
+[12/100] Train loss: 0.171766, Val composite loss: 0.164069, Val MAE: 2.905075, Val RMSE: 3.872137
+[13/100] Train loss: 0.171132, Val composite loss: 0.162615, Val MAE: 2.902033, Val RMSE: 3.807262
+[14/100] Train loss: 0.171247, Val composite loss: 0.162524, Val MAE: 2.899112, Val RMSE: 3.811350
+[15/100] Train loss: 0.170663, Val composite loss: 0.161751, Val MAE: 2.867318, Val RMSE: 3.814868
+[16/100] Train loss: 0.170563, Val composite loss: 0.162448, Val MAE: 2.898047, Val RMSE: 3.802588
+[17/100] Train loss: 0.170080, Val composite loss: 0.161642, Val MAE: 2.871181, Val RMSE: 3.796268
+[18/100] Train loss: 0.170044, Val composite loss: 0.163668, Val MAE: 2.918977, Val RMSE: 3.841791
+[19/100] Train loss: 0.169503, Val composite loss: 0.163398, Val MAE: 2.899679, Val RMSE: 3.873796
+[20/100] Train loss: 0.169105, Val composite loss: 0.163369, Val MAE: 2.894423, Val RMSE: 3.871211
+[21/100] Train loss: 0.169125, Val composite loss: 0.161391, Val MAE: 2.864045, Val RMSE: 3.796766
+[22/100] Train loss: 0.168687, Val composite loss: 0.161826, Val MAE: 2.875750, Val RMSE: 3.806194
+[23/100] Train loss: 0.168868, Val composite loss: 0.161501, Val MAE: 2.877255, Val RMSE: 3.791741
+[24/100] Train loss: 0.168660, Val composite loss: 0.161315, Val MAE: 2.869144, Val RMSE: 3.786940
+[25/100] Train loss: 0.168236, Val composite loss: 0.161082, Val MAE: 2.868905, Val RMSE: 3.776681
+[26/100] Train loss: 0.167992, Val composite loss: 0.160667, Val MAE: 2.853323, Val RMSE: 3.778405
+[27/100] Train loss: 0.167856, Val composite loss: 0.160640, Val MAE: 2.854062, Val RMSE: 3.777065
+[28/100] Train loss: 0.167447, Val composite loss: 0.162347, Val MAE: 2.874895, Val RMSE: 3.827370
+[29/100] Train loss: 0.167579, Val composite loss: 0.161571, Val MAE: 2.874137, Val RMSE: 3.789861
+[30/100] Train loss: 0.167408, Val composite loss: 0.163339, Val MAE: 2.921933, Val RMSE: 3.820091
+[31/100] Train loss: 0.167143, Val composite loss: 0.160349, Val MAE: 2.847899, Val RMSE: 3.772972
+[32/100] Train loss: 0.166534, Val composite loss: 0.161198, Val MAE: 2.860787, Val RMSE: 3.800348
+[33/100] Train loss: 0.166628, Val composite loss: 0.161244, Val MAE: 2.864386, Val RMSE: 3.792590
+[34/100] Train loss: 0.166631, Val composite loss: 0.160893, Val MAE: 2.861121, Val RMSE: 3.783688
+[35/100] Train loss: 0.166454, Val composite loss: 0.162678, Val MAE: 2.902816, Val RMSE: 3.808898
+[36/100] Train loss: 0.166128, Val composite loss: 0.160293, Val MAE: 2.848383, Val RMSE: 3.765792
+[37/100] Train loss: 0.165914, Val composite loss: 0.162717, Val MAE: 2.890054, Val RMSE: 3.822743
+[38/100] Train loss: 0.165903, Val composite loss: 0.161156, Val MAE: 2.868479, Val RMSE: 3.788513
+[39/100] Train loss: 0.165949, Val composite loss: 0.162053, Val MAE: 2.880527, Val RMSE: 3.820530
+[40/100] Train loss: 0.165291, Val composite loss: 0.161560, Val MAE: 2.879882, Val RMSE: 3.797836
+[41/100] Train loss: 0.165455, Val composite loss: 0.160163, Val MAE: 2.850833, Val RMSE: 3.761015
+[42/100] Train loss: 0.165011, Val composite loss: 0.160145, Val MAE: 2.848136, Val RMSE: 3.763131
+[43/100] Train loss: 0.164733, Val composite loss: 0.161256, Val MAE: 2.868863, Val RMSE: 3.802677
+[44/100] Train loss: 0.164490, Val composite loss: 0.160346, Val MAE: 2.848962, Val RMSE: 3.777289
+[45/100] Train loss: 0.164625, Val composite loss: 0.161679, Val MAE: 2.880112, Val RMSE: 3.799797
+[46/100] Train loss: 0.164388, Val composite loss: 0.160425, Val MAE: 2.850164, Val RMSE: 3.772043
+[47/100] Train loss: 0.164206, Val composite loss: 0.162336, Val MAE: 2.884023, Val RMSE: 3.834486
+[48/100] Train loss: 0.163197, Val composite loss: 0.161844, Val MAE: 2.886353, Val RMSE: 3.801844
+[49/100] Train loss: 0.162983, Val composite loss: 0.162257, Val MAE: 2.882004, Val RMSE: 3.818931
+[50/100] Train loss: 0.162808, Val composite loss: 0.160907, Val MAE: 2.860138, Val RMSE: 3.785532
+[51/100] Train loss: 0.162517, Val composite loss: 0.161379, Val MAE: 2.863740, Val RMSE: 3.804770
+[52/100] Train loss: 0.162621, Val composite loss: 0.162601, Val MAE: 2.872473, Val RMSE: 3.847045
+[53/100] Train loss: 0.161719, Val composite loss: 0.161505, Val MAE: 2.861212, Val RMSE: 3.816764
+Selected epoch: 42
+Test MAE: 3.023325
+Test RMSE: 4.014162
+
+**------ Seed 10/15 ------**
+[1/100] Train loss: 0.221268, Val composite loss: 0.179551, Val MAE: 3.216517, Val RMSE: 4.174587
+[2/100] Train loss: 0.188096, Val composite loss: 0.171007, Val MAE: 3.049201, Val RMSE: 4.018968
+[3/100] Train loss: 0.181796, Val composite loss: 0.169488, Val MAE: 3.018996, Val RMSE: 4.002986
+[4/100] Train loss: 0.178838, Val composite loss: 0.167505, Val MAE: 2.991394, Val RMSE: 3.930907
+[5/100] Train loss: 0.177451, Val composite loss: 0.165443, Val MAE: 2.947713, Val RMSE: 3.879924
+[6/100] Train loss: 0.175533, Val composite loss: 0.166620, Val MAE: 2.983209, Val RMSE: 3.888647
+[7/100] Train loss: 0.174701, Val composite loss: 0.165681, Val MAE: 2.950750, Val RMSE: 3.879187
+[8/100] Train loss: 0.174940, Val composite loss: 0.164660, Val MAE: 2.941138, Val RMSE: 3.848019
+[9/100] Train loss: 0.173813, Val composite loss: 0.166244, Val MAE: 2.958276, Val RMSE: 3.884269
+[10/100] Train loss: 0.172872, Val composite loss: 0.167626, Val MAE: 2.970766, Val RMSE: 3.978967
+[11/100] Train loss: 0.172327, Val composite loss: 0.163599, Val MAE: 2.911101, Val RMSE: 3.837787
+[12/100] Train loss: 0.171759, Val composite loss: 0.163208, Val MAE: 2.913042, Val RMSE: 3.823753
+[13/100] Train loss: 0.171440, Val composite loss: 0.162240, Val MAE: 2.883577, Val RMSE: 3.813884
+[14/100] Train loss: 0.170884, Val composite loss: 0.162823, Val MAE: 2.893812, Val RMSE: 3.824857
+[15/100] Train loss: 0.170833, Val composite loss: 0.164160, Val MAE: 2.930285, Val RMSE: 3.834306
+[16/100] Train loss: 0.170763, Val composite loss: 0.162521, Val MAE: 2.888486, Val RMSE: 3.814492
+[17/100] Train loss: 0.170860, Val composite loss: 0.163746, Val MAE: 2.920901, Val RMSE: 3.839349
+[18/100] Train loss: 0.169920, Val composite loss: 0.163219, Val MAE: 2.922219, Val RMSE: 3.810891
+[19/100] Train loss: 0.169068, Val composite loss: 0.161433, Val MAE: 2.872284, Val RMSE: 3.797211
+[20/100] Train loss: 0.168797, Val composite loss: 0.161631, Val MAE: 2.866919, Val RMSE: 3.805362
+[21/100] Train loss: 0.168423, Val composite loss: 0.161659, Val MAE: 2.867635, Val RMSE: 3.798077
+[22/100] Train loss: 0.168404, Val composite loss: 0.161598, Val MAE: 2.872736, Val RMSE: 3.797670
+[23/100] Train loss: 0.168361, Val composite loss: 0.160610, Val MAE: 2.853117, Val RMSE: 3.776106
+[24/100] Train loss: 0.168205, Val composite loss: 0.162414, Val MAE: 2.896444, Val RMSE: 3.801495
+[25/100] Train loss: 0.167678, Val composite loss: 0.161858, Val MAE: 2.875222, Val RMSE: 3.800473
+[26/100] Train loss: 0.167743, Val composite loss: 0.161813, Val MAE: 2.859756, Val RMSE: 3.823093
+[27/100] Train loss: 0.167830, Val composite loss: 0.161027, Val MAE: 2.868422, Val RMSE: 3.775290
+[28/100] Train loss: 0.167422, Val composite loss: 0.160713, Val MAE: 2.856340, Val RMSE: 3.779791
+[29/100] Train loss: 0.166629, Val composite loss: 0.160264, Val MAE: 2.844720, Val RMSE: 3.769330
+[30/100] Train loss: 0.166433, Val composite loss: 0.161117, Val MAE: 2.864302, Val RMSE: 3.784091
+[31/100] Train loss: 0.166165, Val composite loss: 0.161464, Val MAE: 2.869984, Val RMSE: 3.799225
+[32/100] Train loss: 0.166079, Val composite loss: 0.161793, Val MAE: 2.879365, Val RMSE: 3.807977
+[33/100] Train loss: 0.166022, Val composite loss: 0.160363, Val MAE: 2.849618, Val RMSE: 3.770226
+[34/100] Train loss: 0.165699, Val composite loss: 0.160203, Val MAE: 2.844969, Val RMSE: 3.767287
+[35/100] Train loss: 0.165725, Val composite loss: 0.161140, Val MAE: 2.870165, Val RMSE: 3.782364
+[36/100] Train loss: 0.165504, Val composite loss: 0.161509, Val MAE: 2.868174, Val RMSE: 3.805732
+[37/100] Train loss: 0.165399, Val composite loss: 0.160660, Val MAE: 2.855789, Val RMSE: 3.773521
+[38/100] Train loss: 0.165266, Val composite loss: 0.160439, Val MAE: 2.857894, Val RMSE: 3.767477
+[39/100] Train loss: 0.165081, Val composite loss: 0.160514, Val MAE: 2.849191, Val RMSE: 3.775361
+[40/100] Train loss: 0.164168, Val composite loss: 0.159907, Val MAE: 2.839231, Val RMSE: 3.767602
+[41/100] Train loss: 0.164093, Val composite loss: 0.160343, Val MAE: 2.849781, Val RMSE: 3.769933
+[42/100] Train loss: 0.163976, Val composite loss: 0.160162, Val MAE: 2.848374, Val RMSE: 3.763286
+[43/100] Train loss: 0.163866, Val composite loss: 0.160177, Val MAE: 2.848077, Val RMSE: 3.759409
+[44/100] Train loss: 0.163888, Val composite loss: 0.160017, Val MAE: 2.849459, Val RMSE: 3.759380
+[45/100] Train loss: 0.163526, Val composite loss: 0.160993, Val MAE: 2.851049, Val RMSE: 3.802131
+[46/100] Train loss: 0.162975, Val composite loss: 0.160103, Val MAE: 2.842804, Val RMSE: 3.769009
+[47/100] Train loss: 0.162779, Val composite loss: 0.160045, Val MAE: 2.842522, Val RMSE: 3.766758
+[48/100] Train loss: 0.162900, Val composite loss: 0.159887, Val MAE: 2.841148, Val RMSE: 3.764848
+[49/100] Train loss: 0.162565, Val composite loss: 0.159615, Val MAE: 2.838285, Val RMSE: 3.756600
+[50/100] Train loss: 0.162416, Val composite loss: 0.160412, Val MAE: 2.851103, Val RMSE: 3.771546
+[51/100] Train loss: 0.162099, Val composite loss: 0.161089, Val MAE: 2.871103, Val RMSE: 3.784458
+[52/100] Train loss: 0.161955, Val composite loss: 0.159681, Val MAE: 2.834589, Val RMSE: 3.766966
+[53/100] Train loss: 0.161957, Val composite loss: 0.160283, Val MAE: 2.842198, Val RMSE: 3.781328
+[54/100] Train loss: 0.161808, Val composite loss: 0.160582, Val MAE: 2.853398, Val RMSE: 3.778013
+[55/100] Train loss: 0.161334, Val composite loss: 0.159624, Val MAE: 2.831535, Val RMSE: 3.764289
+[56/100] Train loss: 0.161388, Val composite loss: 0.159910, Val MAE: 2.843664, Val RMSE: 3.764567
+[57/100] Train loss: 0.161046, Val composite loss: 0.161155, Val MAE: 2.858734, Val RMSE: 3.797329
+[58/100] Train loss: 0.160874, Val composite loss: 0.160947, Val MAE: 2.858867, Val RMSE: 3.793921
+[59/100] Train loss: 0.160573, Val composite loss: 0.159974, Val MAE: 2.831720, Val RMSE: 3.779678
+[60/100] Train loss: 0.160172, Val composite loss: 0.161037, Val MAE: 2.865371, Val RMSE: 3.785339
+Selected epoch: 49
+Test MAE: 3.039677
+Test RMSE: 4.045398
+
+**------ Seed 11/15 ------**
+[1/100] Train loss: 0.219333, Val composite loss: 0.180644, Val MAE: 3.234306, Val RMSE: 4.220947
+[2/100] Train loss: 0.187976, Val composite loss: 0.170556, Val MAE: 3.051559, Val RMSE: 4.004620
+[3/100] Train loss: 0.182134, Val composite loss: 0.169621, Val MAE: 3.041762, Val RMSE: 3.970041
+[4/100] Train loss: 0.178909, Val composite loss: 0.166918, Val MAE: 2.972741, Val RMSE: 3.927142
+[5/100] Train loss: 0.177572, Val composite loss: 0.164928, Val MAE: 2.936112, Val RMSE: 3.875534
+[6/100] Train loss: 0.175659, Val composite loss: 0.165847, Val MAE: 2.950141, Val RMSE: 3.898829
+[7/100] Train loss: 0.174814, Val composite loss: 0.166855, Val MAE: 2.991830, Val RMSE: 3.905034
+[8/100] Train loss: 0.173959, Val composite loss: 0.166124, Val MAE: 2.980146, Val RMSE: 3.872754
+[9/100] Train loss: 0.173574, Val composite loss: 0.163055, Val MAE: 2.898632, Val RMSE: 3.829789
+[10/100] Train loss: 0.172934, Val composite loss: 0.163933, Val MAE: 2.907449, Val RMSE: 3.857965
+[11/100] Train loss: 0.172379, Val composite loss: 0.163896, Val MAE: 2.902213, Val RMSE: 3.875923
+[12/100] Train loss: 0.171921, Val composite loss: 0.163721, Val MAE: 2.920101, Val RMSE: 3.826821
+[13/100] Train loss: 0.171367, Val composite loss: 0.166982, Val MAE: 2.993100, Val RMSE: 3.893986
+[14/100] Train loss: 0.170987, Val composite loss: 0.161795, Val MAE: 2.876127, Val RMSE: 3.809229
+[15/100] Train loss: 0.170678, Val composite loss: 0.161648, Val MAE: 2.874079, Val RMSE: 3.801639
+[16/100] Train loss: 0.170895, Val composite loss: 0.161856, Val MAE: 2.881846, Val RMSE: 3.792683
+[17/100] Train loss: 0.170217, Val composite loss: 0.163570, Val MAE: 2.926951, Val RMSE: 3.820879
+[18/100] Train loss: 0.170088, Val composite loss: 0.165717, Val MAE: 2.941705, Val RMSE: 3.919036
+[19/100] Train loss: 0.169624, Val composite loss: 0.162674, Val MAE: 2.902662, Val RMSE: 3.802346
+[20/100] Train loss: 0.169941, Val composite loss: 0.161146, Val MAE: 2.855392, Val RMSE: 3.798961
+[21/100] Train loss: 0.169472, Val composite loss: 0.161045, Val MAE: 2.859939, Val RMSE: 3.785413
+[22/100] Train loss: 0.169181, Val composite loss: 0.162110, Val MAE: 2.878184, Val RMSE: 3.820099
+[23/100] Train loss: 0.168781, Val composite loss: 0.161352, Val MAE: 2.866787, Val RMSE: 3.800935
+[24/100] Train loss: 0.168646, Val composite loss: 0.162152, Val MAE: 2.891983, Val RMSE: 3.805004
+[25/100] Train loss: 0.168280, Val composite loss: 0.162338, Val MAE: 2.890984, Val RMSE: 3.827758
+[26/100] Train loss: 0.168261, Val composite loss: 0.161873, Val MAE: 2.876293, Val RMSE: 3.811758
+[27/100] Train loss: 0.167416, Val composite loss: 0.160690, Val MAE: 2.859644, Val RMSE: 3.782215
+[28/100] Train loss: 0.167057, Val composite loss: 0.160432, Val MAE: 2.851261, Val RMSE: 3.769722
+[29/100] Train loss: 0.166910, Val composite loss: 0.160952, Val MAE: 2.857742, Val RMSE: 3.784685
+[30/100] Train loss: 0.166727, Val composite loss: 0.160592, Val MAE: 2.855413, Val RMSE: 3.776158
+[31/100] Train loss: 0.166811, Val composite loss: 0.160661, Val MAE: 2.848601, Val RMSE: 3.780254
+[32/100] Train loss: 0.166291, Val composite loss: 0.162153, Val MAE: 2.888271, Val RMSE: 3.797363
+[33/100] Train loss: 0.166517, Val composite loss: 0.160479, Val MAE: 2.858535, Val RMSE: 3.771926
+[34/100] Train loss: 0.165466, Val composite loss: 0.160608, Val MAE: 2.859869, Val RMSE: 3.773072
+[35/100] Train loss: 0.165535, Val composite loss: 0.160650, Val MAE: 2.863698, Val RMSE: 3.767509
+[36/100] Train loss: 0.165416, Val composite loss: 0.160352, Val MAE: 2.851253, Val RMSE: 3.767445
+[37/100] Train loss: 0.164805, Val composite loss: 0.159665, Val MAE: 2.828719, Val RMSE: 3.764308
+[38/100] Train loss: 0.164755, Val composite loss: 0.159970, Val MAE: 2.839975, Val RMSE: 3.769093
+[39/100] Train loss: 0.164738, Val composite loss: 0.160251, Val MAE: 2.848828, Val RMSE: 3.770533
+[40/100] Train loss: 0.164673, Val composite loss: 0.160868, Val MAE: 2.859203, Val RMSE: 3.780682
+[41/100] Train loss: 0.164302, Val composite loss: 0.159882, Val MAE: 2.838559, Val RMSE: 3.764271
+[42/100] Train loss: 0.164004, Val composite loss: 0.160474, Val MAE: 2.852460, Val RMSE: 3.772900
+[43/100] Train loss: 0.163479, Val composite loss: 0.160062, Val MAE: 2.847316, Val RMSE: 3.763156
+[44/100] Train loss: 0.163142, Val composite loss: 0.159609, Val MAE: 2.830760, Val RMSE: 3.767843
+[45/100] Train loss: 0.163014, Val composite loss: 0.161140, Val MAE: 2.866926, Val RMSE: 3.791197
+[46/100] Train loss: 0.163006, Val composite loss: 0.160658, Val MAE: 2.855015, Val RMSE: 3.780218
+[47/100] Train loss: 0.162737, Val composite loss: 0.160558, Val MAE: 2.856833, Val RMSE: 3.775032
+[48/100] Train loss: 0.162425, Val composite loss: 0.161054, Val MAE: 2.862622, Val RMSE: 3.797385
+[49/100] Train loss: 0.162391, Val composite loss: 0.160576, Val MAE: 2.849507, Val RMSE: 3.784700
+[50/100] Train loss: 0.161611, Val composite loss: 0.160158, Val MAE: 2.841460, Val RMSE: 3.775966
+[51/100] Train loss: 0.161314, Val composite loss: 0.160533, Val MAE: 2.847816, Val RMSE: 3.790359
+[52/100] Train loss: 0.161417, Val composite loss: 0.160315, Val MAE: 2.839403, Val RMSE: 3.785631
+[53/100] Train loss: 0.161371, Val composite loss: 0.161743, Val MAE: 2.873042, Val RMSE: 3.808061
+[54/100] Train loss: 0.160879, Val composite loss: 0.161416, Val MAE: 2.866043, Val RMSE: 3.800200
+[55/100] Train loss: 0.160465, Val composite loss: 0.160632, Val MAE: 2.855829, Val RMSE: 3.781634
+Selected epoch: 44
+Test MAE: 3.026384
+Test RMSE: 4.041545
+
+**------ Seed 12/15 ------**
+[1/100] Train loss: 0.222905, Val composite loss: 0.181124, Val MAE: 3.245150, Val RMSE: 4.197894
+[2/100] Train loss: 0.189371, Val composite loss: 0.172167, Val MAE: 3.083521, Val RMSE: 4.015810
+[3/100] Train loss: 0.181776, Val composite loss: 0.168242, Val MAE: 3.002635, Val RMSE: 3.939334
+[4/100] Train loss: 0.178602, Val composite loss: 0.166913, Val MAE: 2.978004, Val RMSE: 3.918399
+[5/100] Train loss: 0.177070, Val composite loss: 0.166386, Val MAE: 2.971809, Val RMSE: 3.894758
+[6/100] Train loss: 0.176048, Val composite loss: 0.164896, Val MAE: 2.938911, Val RMSE: 3.871883
+[7/100] Train loss: 0.174930, Val composite loss: 0.168408, Val MAE: 3.023969, Val RMSE: 3.921991
+[8/100] Train loss: 0.173842, Val composite loss: 0.165207, Val MAE: 2.937668, Val RMSE: 3.881292
+[9/100] Train loss: 0.173188, Val composite loss: 0.163113, Val MAE: 2.905010, Val RMSE: 3.825258
+[10/100] Train loss: 0.172552, Val composite loss: 0.166411, Val MAE: 2.979722, Val RMSE: 3.894871
+[11/100] Train loss: 0.172407, Val composite loss: 0.164659, Val MAE: 2.943522, Val RMSE: 3.847559
+[12/100] Train loss: 0.171966, Val composite loss: 0.163218, Val MAE: 2.909843, Val RMSE: 3.818270
+[13/100] Train loss: 0.171368, Val composite loss: 0.164314, Val MAE: 2.925251, Val RMSE: 3.860012
+[14/100] Train loss: 0.171221, Val composite loss: 0.162875, Val MAE: 2.906896, Val RMSE: 3.817942
+[15/100] Train loss: 0.170658, Val composite loss: 0.163867, Val MAE: 2.922657, Val RMSE: 3.825346
+[16/100] Train loss: 0.170233, Val composite loss: 0.163248, Val MAE: 2.894575, Val RMSE: 3.862103
+[17/100] Train loss: 0.170088, Val composite loss: 0.161897, Val MAE: 2.876495, Val RMSE: 3.803285
+[18/100] Train loss: 0.169970, Val composite loss: 0.162357, Val MAE: 2.879852, Val RMSE: 3.834140
+[19/100] Train loss: 0.169798, Val composite loss: 0.163655, Val MAE: 2.925237, Val RMSE: 3.816109
+[20/100] Train loss: 0.169376, Val composite loss: 0.161967, Val MAE: 2.883041, Val RMSE: 3.793641
+[21/100] Train loss: 0.169156, Val composite loss: 0.162329, Val MAE: 2.888695, Val RMSE: 3.801700
+[22/100] Train loss: 0.169422, Val composite loss: 0.160857, Val MAE: 2.855433, Val RMSE: 3.784456
+[23/100] Train loss: 0.168776, Val composite loss: 0.162947, Val MAE: 2.911127, Val RMSE: 3.808957
+[24/100] Train loss: 0.168916, Val composite loss: 0.162677, Val MAE: 2.885081, Val RMSE: 3.830576
+[25/100] Train loss: 0.168333, Val composite loss: 0.160856, Val MAE: 2.861665, Val RMSE: 3.770907
+[26/100] Train loss: 0.168430, Val composite loss: 0.164103, Val MAE: 2.941055, Val RMSE: 3.815403
+[27/100] Train loss: 0.168180, Val composite loss: 0.161284, Val MAE: 2.863702, Val RMSE: 3.790922
+[28/100] Train loss: 0.167172, Val composite loss: 0.161484, Val MAE: 2.872510, Val RMSE: 3.787624
+[29/100] Train loss: 0.166899, Val composite loss: 0.160386, Val MAE: 2.847375, Val RMSE: 3.767627
+[30/100] Train loss: 0.166824, Val composite loss: 0.160784, Val MAE: 2.858225, Val RMSE: 3.779354
+[31/100] Train loss: 0.166628, Val composite loss: 0.161716, Val MAE: 2.875581, Val RMSE: 3.793842
+[32/100] Train loss: 0.166418, Val composite loss: 0.160560, Val MAE: 2.856698, Val RMSE: 3.764239
+[33/100] Train loss: 0.166738, Val composite loss: 0.160633, Val MAE: 2.855092, Val RMSE: 3.780177
+[34/100] Train loss: 0.166233, Val composite loss: 0.160798, Val MAE: 2.851969, Val RMSE: 3.793739
+[35/100] Train loss: 0.165438, Val composite loss: 0.159783, Val MAE: 2.837511, Val RMSE: 3.756136
+[36/100] Train loss: 0.165212, Val composite loss: 0.160605, Val MAE: 2.852520, Val RMSE: 3.786676
+[37/100] Train loss: 0.165145, Val composite loss: 0.159769, Val MAE: 2.836168, Val RMSE: 3.755014
+[38/100] Train loss: 0.165007, Val composite loss: 0.159893, Val MAE: 2.837561, Val RMSE: 3.760766
+[39/100] Train loss: 0.164695, Val composite loss: 0.160819, Val MAE: 2.862278, Val RMSE: 3.781736
+[40/100] Train loss: 0.164780, Val composite loss: 0.161314, Val MAE: 2.860637, Val RMSE: 3.798257
+[41/100] Train loss: 0.163946, Val composite loss: 0.160839, Val MAE: 2.858498, Val RMSE: 3.784223
+[42/100] Train loss: 0.163950, Val composite loss: 0.159822, Val MAE: 2.836991, Val RMSE: 3.764917
+[43/100] Train loss: 0.163769, Val composite loss: 0.160087, Val MAE: 2.845781, Val RMSE: 3.761569
+[44/100] Train loss: 0.163553, Val composite loss: 0.161278, Val MAE: 2.872808, Val RMSE: 3.784302
+[45/100] Train loss: 0.163468, Val composite loss: 0.160209, Val MAE: 2.846581, Val RMSE: 3.769098
+[46/100] Train loss: 0.162722, Val composite loss: 0.159787, Val MAE: 2.833896, Val RMSE: 3.764298
+[47/100] Train loss: 0.162710, Val composite loss: 0.159852, Val MAE: 2.837451, Val RMSE: 3.766404
+[48/100] Train loss: 0.162518, Val composite loss: 0.160284, Val MAE: 2.849540, Val RMSE: 3.767157
+Selected epoch: 37
+Test MAE: 3.008764
+Test RMSE: 4.004143
+
+**------ Seed 13/15 ------**
+[1/100] Train loss: 0.219197, Val composite loss: 0.180927, Val MAE: 3.245426, Val RMSE: 4.189085
+[2/100] Train loss: 0.188592, Val composite loss: 0.171421, Val MAE: 3.047421, Val RMSE: 4.061801
+[3/100] Train loss: 0.181346, Val composite loss: 0.167164, Val MAE: 2.973772, Val RMSE: 3.944168
+[4/100] Train loss: 0.177928, Val composite loss: 0.166778, Val MAE: 2.961379, Val RMSE: 3.936734
+[5/100] Train loss: 0.176052, Val composite loss: 0.165219, Val MAE: 2.933736, Val RMSE: 3.893600
+[6/100] Train loss: 0.175287, Val composite loss: 0.165298, Val MAE: 2.939572, Val RMSE: 3.882340
+[7/100] Train loss: 0.174037, Val composite loss: 0.163510, Val MAE: 2.911605, Val RMSE: 3.839684
+[8/100] Train loss: 0.172982, Val composite loss: 0.164048, Val MAE: 2.926493, Val RMSE: 3.851347
+[9/100] Train loss: 0.172768, Val composite loss: 0.163191, Val MAE: 2.889064, Val RMSE: 3.854887
+[10/100] Train loss: 0.171930, Val composite loss: 0.165755, Val MAE: 2.949295, Val RMSE: 3.880102
+[11/100] Train loss: 0.171313, Val composite loss: 0.165017, Val MAE: 2.934050, Val RMSE: 3.874467
+[12/100] Train loss: 0.171327, Val composite loss: 0.163705, Val MAE: 2.912476, Val RMSE: 3.854846
+[13/100] Train loss: 0.170713, Val composite loss: 0.163528, Val MAE: 2.904579, Val RMSE: 3.880215
+[14/100] Train loss: 0.170681, Val composite loss: 0.166235, Val MAE: 2.945622, Val RMSE: 3.926671
+[15/100] Train loss: 0.169427, Val composite loss: 0.161548, Val MAE: 2.860973, Val RMSE: 3.814899
+[16/100] Train loss: 0.169376, Val composite loss: 0.161652, Val MAE: 2.872928, Val RMSE: 3.797157
+[17/100] Train loss: 0.168794, Val composite loss: 0.161259, Val MAE: 2.865896, Val RMSE: 3.796530
+[18/100] Train loss: 0.168924, Val composite loss: 0.161465, Val MAE: 2.870371, Val RMSE: 3.786758
+[19/100] Train loss: 0.168607, Val composite loss: 0.161466, Val MAE: 2.866524, Val RMSE: 3.803605
+[20/100] Train loss: 0.168238, Val composite loss: 0.162213, Val MAE: 2.888608, Val RMSE: 3.809579
+[21/100] Train loss: 0.168156, Val composite loss: 0.161200, Val MAE: 2.865423, Val RMSE: 3.784626
+[22/100] Train loss: 0.168229, Val composite loss: 0.161517, Val MAE: 2.875546, Val RMSE: 3.796747
+[23/100] Train loss: 0.168317, Val composite loss: 0.161287, Val MAE: 2.872514, Val RMSE: 3.790015
+[24/100] Train loss: 0.167563, Val composite loss: 0.161462, Val MAE: 2.877281, Val RMSE: 3.783059
+[25/100] Train loss: 0.167748, Val composite loss: 0.159994, Val MAE: 2.842004, Val RMSE: 3.764902
+[26/100] Train loss: 0.167644, Val composite loss: 0.160087, Val MAE: 2.839445, Val RMSE: 3.765831
+[27/100] Train loss: 0.167385, Val composite loss: 0.160206, Val MAE: 2.840539, Val RMSE: 3.772196
+[28/100] Train loss: 0.166831, Val composite loss: 0.160181, Val MAE: 2.842204, Val RMSE: 3.769575
+[29/100] Train loss: 0.166969, Val composite loss: 0.160161, Val MAE: 2.844206, Val RMSE: 3.765156
+[30/100] Train loss: 0.166588, Val composite loss: 0.163579, Val MAE: 2.921663, Val RMSE: 3.825920
+[31/100] Train loss: 0.166289, Val composite loss: 0.161970, Val MAE: 2.890406, Val RMSE: 3.784752
+[32/100] Train loss: 0.165901, Val composite loss: 0.159801, Val MAE: 2.834903, Val RMSE: 3.763778
+[33/100] Train loss: 0.165717, Val composite loss: 0.160601, Val MAE: 2.844190, Val RMSE: 3.791070
+[34/100] Train loss: 0.165402, Val composite loss: 0.159976, Val MAE: 2.837686, Val RMSE: 3.770785
+[35/100] Train loss: 0.165341, Val composite loss: 0.160419, Val MAE: 2.851747, Val RMSE: 3.771381
+[36/100] Train loss: 0.165059, Val composite loss: 0.161528, Val MAE: 2.873503, Val RMSE: 3.783370
+[37/100] Train loss: 0.164964, Val composite loss: 0.160114, Val MAE: 2.837832, Val RMSE: 3.778896
+[38/100] Train loss: 0.164433, Val composite loss: 0.160169, Val MAE: 2.847099, Val RMSE: 3.762952
+[39/100] Train loss: 0.164251, Val composite loss: 0.160354, Val MAE: 2.840950, Val RMSE: 3.778448
+[40/100] Train loss: 0.163947, Val composite loss: 0.160180, Val MAE: 2.842637, Val RMSE: 3.777629
+[41/100] Train loss: 0.164019, Val composite loss: 0.159544, Val MAE: 2.835178, Val RMSE: 3.753901
+[42/100] Train loss: 0.163843, Val composite loss: 0.160750, Val MAE: 2.853286, Val RMSE: 3.778975
+[43/100] Train loss: 0.163637, Val composite loss: 0.160095, Val MAE: 2.846320, Val RMSE: 3.767196
+[44/100] Train loss: 0.163684, Val composite loss: 0.159936, Val MAE: 2.838537, Val RMSE: 3.770158
+[45/100] Train loss: 0.163255, Val composite loss: 0.160871, Val MAE: 2.872122, Val RMSE: 3.767393
+[46/100] Train loss: 0.163444, Val composite loss: 0.160168, Val MAE: 2.846488, Val RMSE: 3.773866
+[47/100] Train loss: 0.162855, Val composite loss: 0.159535, Val MAE: 2.826321, Val RMSE: 3.772651
+[48/100] Train loss: 0.162372, Val composite loss: 0.160305, Val MAE: 2.851329, Val RMSE: 3.770534
+[49/100] Train loss: 0.162457, Val composite loss: 0.160978, Val MAE: 2.870662, Val RMSE: 3.776420
+[50/100] Train loss: 0.162454, Val composite loss: 0.159686, Val MAE: 2.834661, Val RMSE: 3.761877
+[51/100] Train loss: 0.162183, Val composite loss: 0.160141, Val MAE: 2.844933, Val RMSE: 3.770062
+[52/100] Train loss: 0.161715, Val composite loss: 0.159447, Val MAE: 2.835065, Val RMSE: 3.754962
+[53/100] Train loss: 0.161463, Val composite loss: 0.159438, Val MAE: 2.831819, Val RMSE: 3.758915
+[54/100] Train loss: 0.161353, Val composite loss: 0.160159, Val MAE: 2.843236, Val RMSE: 3.778668
+[55/100] Train loss: 0.161199, Val composite loss: 0.160564, Val MAE: 2.857099, Val RMSE: 3.773641
+[56/100] Train loss: 0.161211, Val composite loss: 0.159836, Val MAE: 2.838415, Val RMSE: 3.767373
+[57/100] Train loss: 0.161002, Val composite loss: 0.160367, Val MAE: 2.850506, Val RMSE: 3.781364
+[58/100] Train loss: 0.160557, Val composite loss: 0.159876, Val MAE: 2.842631, Val RMSE: 3.763028
+[59/100] Train loss: 0.160307, Val composite loss: 0.160036, Val MAE: 2.841212, Val RMSE: 3.772549
+[60/100] Train loss: 0.160393, Val composite loss: 0.160033, Val MAE: 2.842479, Val RMSE: 3.772394
+[61/100] Train loss: 0.160072, Val composite loss: 0.159642, Val MAE: 2.834709, Val RMSE: 3.762066
+[62/100] Train loss: 0.159934, Val composite loss: 0.160508, Val MAE: 2.850482, Val RMSE: 3.780179
+[63/100] Train loss: 0.159677, Val composite loss: 0.159824, Val MAE: 2.835954, Val RMSE: 3.771667
+[64/100] Train loss: 0.159636, Val composite loss: 0.160383, Val MAE: 2.848578, Val RMSE: 3.776937
+Selected epoch: 53
+Test MAE: 3.032022
+Test RMSE: 4.048904
+
+**------ Seed 14/15 ------**
+[1/100] Train loss: 0.217298, Val composite loss: 0.182596, Val MAE: 3.256850, Val RMSE: 4.269539
+[2/100] Train loss: 0.187012, Val composite loss: 0.171192, Val MAE: 3.068997, Val RMSE: 4.008391
+[3/100] Train loss: 0.181203, Val composite loss: 0.170416, Val MAE: 3.027974, Val RMSE: 4.018452
+[4/100] Train loss: 0.178772, Val composite loss: 0.167124, Val MAE: 2.968979, Val RMSE: 3.933136
+[5/100] Train loss: 0.176536, Val composite loss: 0.165792, Val MAE: 2.956837, Val RMSE: 3.894022
+[6/100] Train loss: 0.175558, Val composite loss: 0.164747, Val MAE: 2.936291, Val RMSE: 3.872957
+[7/100] Train loss: 0.174809, Val composite loss: 0.165243, Val MAE: 2.954264, Val RMSE: 3.860997
+[8/100] Train loss: 0.173416, Val composite loss: 0.164752, Val MAE: 2.936707, Val RMSE: 3.863957
+[9/100] Train loss: 0.173003, Val composite loss: 0.164064, Val MAE: 2.920321, Val RMSE: 3.858973
+[10/100] Train loss: 0.172443, Val composite loss: 0.163362, Val MAE: 2.895875, Val RMSE: 3.856316
+[11/100] Train loss: 0.171929, Val composite loss: 0.163924, Val MAE: 2.919416, Val RMSE: 3.848076
+[12/100] Train loss: 0.171624, Val composite loss: 0.163542, Val MAE: 2.913660, Val RMSE: 3.837316
+[13/100] Train loss: 0.171397, Val composite loss: 0.164229, Val MAE: 2.925421, Val RMSE: 3.863875
+[14/100] Train loss: 0.171067, Val composite loss: 0.161973, Val MAE: 2.879319, Val RMSE: 3.817047
+[15/100] Train loss: 0.170191, Val composite loss: 0.162334, Val MAE: 2.876093, Val RMSE: 3.828756
+[16/100] Train loss: 0.170160, Val composite loss: 0.161808, Val MAE: 2.875855, Val RMSE: 3.806481
+[17/100] Train loss: 0.169926, Val composite loss: 0.161338, Val MAE: 2.872711, Val RMSE: 3.787612
+[18/100] Train loss: 0.169793, Val composite loss: 0.162474, Val MAE: 2.896231, Val RMSE: 3.806932
+[19/100] Train loss: 0.169376, Val composite loss: 0.161527, Val MAE: 2.868118, Val RMSE: 3.798582
+[20/100] Train loss: 0.169041, Val composite loss: 0.161988, Val MAE: 2.874322, Val RMSE: 3.833920
+[21/100] Train loss: 0.169122, Val composite loss: 0.162120, Val MAE: 2.872493, Val RMSE: 3.819686
+[22/100] Train loss: 0.168664, Val composite loss: 0.163294, Val MAE: 2.891815, Val RMSE: 3.856864
+[23/100] Train loss: 0.167900, Val composite loss: 0.160885, Val MAE: 2.852650, Val RMSE: 3.786800
+[24/100] Train loss: 0.167778, Val composite loss: 0.161106, Val MAE: 2.866123, Val RMSE: 3.786487
+[25/100] Train loss: 0.167693, Val composite loss: 0.161503, Val MAE: 2.865341, Val RMSE: 3.802778
+[26/100] Train loss: 0.167589, Val composite loss: 0.163516, Val MAE: 2.920407, Val RMSE: 3.833313
+[27/100] Train loss: 0.167238, Val composite loss: 0.160430, Val MAE: 2.856855, Val RMSE: 3.769339
+[28/100] Train loss: 0.166936, Val composite loss: 0.161478, Val MAE: 2.866878, Val RMSE: 3.806395
+[29/100] Train loss: 0.166682, Val composite loss: 0.161274, Val MAE: 2.861820, Val RMSE: 3.792381
+[30/100] Train loss: 0.166641, Val composite loss: 0.161088, Val MAE: 2.871162, Val RMSE: 3.784881
+[31/100] Train loss: 0.166752, Val composite loss: 0.161493, Val MAE: 2.870925, Val RMSE: 3.795563
+[32/100] Train loss: 0.166247, Val composite loss: 0.160410, Val MAE: 2.854336, Val RMSE: 3.767267
+[33/100] Train loss: 0.166273, Val composite loss: 0.161253, Val MAE: 2.875261, Val RMSE: 3.785863
+[34/100] Train loss: 0.166112, Val composite loss: 0.161841, Val MAE: 2.891959, Val RMSE: 3.785585
+[35/100] Train loss: 0.165815, Val composite loss: 0.160879, Val MAE: 2.858298, Val RMSE: 3.785149
+[36/100] Train loss: 0.165632, Val composite loss: 0.160598, Val MAE: 2.851865, Val RMSE: 3.780828
+[37/100] Train loss: 0.165680, Val composite loss: 0.159887, Val MAE: 2.842867, Val RMSE: 3.757637
+[38/100] Train loss: 0.165184, Val composite loss: 0.160117, Val MAE: 2.847995, Val RMSE: 3.764360
+[39/100] Train loss: 0.164942, Val composite loss: 0.162279, Val MAE: 2.874027, Val RMSE: 3.848064
+[40/100] Train loss: 0.165075, Val composite loss: 0.160467, Val MAE: 2.854995, Val RMSE: 3.771460
+[41/100] Train loss: 0.164985, Val composite loss: 0.160869, Val MAE: 2.848106, Val RMSE: 3.802395
+[42/100] Train loss: 0.164992, Val composite loss: 0.159615, Val MAE: 2.834993, Val RMSE: 3.764055
+[43/100] Train loss: 0.164883, Val composite loss: 0.160106, Val MAE: 2.851373, Val RMSE: 3.763919
+[44/100] Train loss: 0.164284, Val composite loss: 0.159646, Val MAE: 2.839033, Val RMSE: 3.759688
+[45/100] Train loss: 0.163975, Val composite loss: 0.160339, Val MAE: 2.852274, Val RMSE: 3.767906
+[46/100] Train loss: 0.163767, Val composite loss: 0.160889, Val MAE: 2.854628, Val RMSE: 3.795074
+[47/100] Train loss: 0.163860, Val composite loss: 0.159794, Val MAE: 2.837294, Val RMSE: 3.762959
+[48/100] Train loss: 0.163040, Val composite loss: 0.160885, Val MAE: 2.868772, Val RMSE: 3.772130
+[49/100] Train loss: 0.162805, Val composite loss: 0.160566, Val MAE: 2.857512, Val RMSE: 3.771423
+[50/100] Train loss: 0.162651, Val composite loss: 0.160440, Val MAE: 2.851554, Val RMSE: 3.780915
+[51/100] Train loss: 0.162483, Val composite loss: 0.160323, Val MAE: 2.848377, Val RMSE: 3.768385
+[52/100] Train loss: 0.162431, Val composite loss: 0.160193, Val MAE: 2.834061, Val RMSE: 3.788326
+[53/100] Train loss: 0.161525, Val composite loss: 0.159807, Val MAE: 2.840208, Val RMSE: 3.762418
+Selected epoch: 42
+Test MAE: 3.031680
+Test RMSE: 4.039154
+
+**------ Seed 15/15 ------**
+[1/100] Train loss: 0.222729, Val composite loss: 0.181086, Val MAE: 3.239730, Val RMSE: 4.225303
+[2/100] Train loss: 0.188868, Val composite loss: 0.171207, Val MAE: 3.051562, Val RMSE: 4.009246
+[3/100] Train loss: 0.181784, Val composite loss: 0.168055, Val MAE: 2.994353, Val RMSE: 3.946358
+[4/100] Train loss: 0.179200, Val composite loss: 0.166547, Val MAE: 2.965770, Val RMSE: 3.921217
+[5/100] Train loss: 0.176574, Val composite loss: 0.166186, Val MAE: 2.965759, Val RMSE: 3.902414
+[6/100] Train loss: 0.175767, Val composite loss: 0.165466, Val MAE: 2.955415, Val RMSE: 3.870701
+[7/100] Train loss: 0.174535, Val composite loss: 0.165815, Val MAE: 2.941187, Val RMSE: 3.922211
+[8/100] Train loss: 0.174181, Val composite loss: 0.162907, Val MAE: 2.896701, Val RMSE: 3.830245
+[9/100] Train loss: 0.173199, Val composite loss: 0.163855, Val MAE: 2.914286, Val RMSE: 3.849804
+[10/100] Train loss: 0.172527, Val composite loss: 0.164455, Val MAE: 2.919872, Val RMSE: 3.877981
+[11/100] Train loss: 0.171952, Val composite loss: 0.164712, Val MAE: 2.931805, Val RMSE: 3.864980
+[12/100] Train loss: 0.171745, Val composite loss: 0.165017, Val MAE: 2.935894, Val RMSE: 3.882550
+[13/100] Train loss: 0.171000, Val composite loss: 0.164090, Val MAE: 2.917619, Val RMSE: 3.870485
+[14/100] Train loss: 0.170418, Val composite loss: 0.162829, Val MAE: 2.903138, Val RMSE: 3.819446
+[15/100] Train loss: 0.169695, Val composite loss: 0.161527, Val MAE: 2.866951, Val RMSE: 3.799663
+[16/100] Train loss: 0.169691, Val composite loss: 0.164205, Val MAE: 2.940298, Val RMSE: 3.837156
+[17/100] Train loss: 0.169350, Val composite loss: 0.162780, Val MAE: 2.902864, Val RMSE: 3.809099
+[18/100] Train loss: 0.169252, Val composite loss: 0.162104, Val MAE: 2.887365, Val RMSE: 3.803097
+[19/100] Train loss: 0.169014, Val composite loss: 0.162069, Val MAE: 2.882899, Val RMSE: 3.810244
+[20/100] Train loss: 0.168807, Val composite loss: 0.162301, Val MAE: 2.882819, Val RMSE: 3.820010
+[21/100] Train loss: 0.168062, Val composite loss: 0.160908, Val MAE: 2.865980, Val RMSE: 3.772418
+[22/100] Train loss: 0.167627, Val composite loss: 0.160831, Val MAE: 2.864592, Val RMSE: 3.775111
+[23/100] Train loss: 0.167560, Val composite loss: 0.161196, Val MAE: 2.876513, Val RMSE: 3.773977
+[24/100] Train loss: 0.167525, Val composite loss: 0.160672, Val MAE: 2.853272, Val RMSE: 3.780006
+[25/100] Train loss: 0.167177, Val composite loss: 0.161076, Val MAE: 2.863725, Val RMSE: 3.796396
+[26/100] Train loss: 0.167386, Val composite loss: 0.160350, Val MAE: 2.849143, Val RMSE: 3.772414
+[27/100] Train loss: 0.166698, Val composite loss: 0.160754, Val MAE: 2.866220, Val RMSE: 3.769099
+[28/100] Train loss: 0.166706, Val composite loss: 0.160295, Val MAE: 2.849457, Val RMSE: 3.768366
+[29/100] Train loss: 0.166617, Val composite loss: 0.159871, Val MAE: 2.836574, Val RMSE: 3.770276
+[30/100] Train loss: 0.166548, Val composite loss: 0.160697, Val MAE: 2.858189, Val RMSE: 3.781628
+[31/100] Train loss: 0.166293, Val composite loss: 0.160867, Val MAE: 2.858304, Val RMSE: 3.780986
+[32/100] Train loss: 0.166195, Val composite loss: 0.162207, Val MAE: 2.897094, Val RMSE: 3.804391
+[33/100] Train loss: 0.165885, Val composite loss: 0.160924, Val MAE: 2.869806, Val RMSE: 3.772907
+[34/100] Train loss: 0.165963, Val composite loss: 0.160363, Val MAE: 2.853750, Val RMSE: 3.770914
+[35/100] Train loss: 0.165238, Val composite loss: 0.160497, Val MAE: 2.858454, Val RMSE: 3.769494
+[36/100] Train loss: 0.165242, Val composite loss: 0.159768, Val MAE: 2.835526, Val RMSE: 3.766695
+[37/100] Train loss: 0.164974, Val composite loss: 0.160461, Val MAE: 2.858016, Val RMSE: 3.766885
+[38/100] Train loss: 0.164786, Val composite loss: 0.161156, Val MAE: 2.859501, Val RMSE: 3.801910
+[39/100] Train loss: 0.164763, Val composite loss: 0.160016, Val MAE: 2.840810, Val RMSE: 3.768788
+[40/100] Train loss: 0.164649, Val composite loss: 0.160181, Val MAE: 2.845723, Val RMSE: 3.771454
+[41/100] Train loss: 0.164682, Val composite loss: 0.164020, Val MAE: 2.931833, Val RMSE: 3.847267
+[42/100] Train loss: 0.163809, Val composite loss: 0.160394, Val MAE: 2.849394, Val RMSE: 3.770959
+[43/100] Train loss: 0.163704, Val composite loss: 0.159611, Val MAE: 2.839314, Val RMSE: 3.758516
+[44/100] Train loss: 0.163651, Val composite loss: 0.159653, Val MAE: 2.833148, Val RMSE: 3.766960
+[45/100] Train loss: 0.163343, Val composite loss: 0.160467, Val MAE: 2.849371, Val RMSE: 3.783489
+[46/100] Train loss: 0.163285, Val composite loss: 0.160351, Val MAE: 2.850552, Val RMSE: 3.777616
+[47/100] Train loss: 0.163214, Val composite loss: 0.161466, Val MAE: 2.876797, Val RMSE: 3.784000
+[48/100] Train loss: 0.163209, Val composite loss: 0.160361, Val MAE: 2.853332, Val RMSE: 3.775405
+[49/100] Train loss: 0.162644, Val composite loss: 0.160285, Val MAE: 2.851176, Val RMSE: 3.769291
+[50/100] Train loss: 0.162596, Val composite loss: 0.160401, Val MAE: 2.845528, Val RMSE: 3.782784
+[51/100] Train loss: 0.162414, Val composite loss: 0.160786, Val MAE: 2.861369, Val RMSE: 3.779893
+[52/100] Train loss: 0.162394, Val composite loss: 0.159621, Val MAE: 2.835840, Val RMSE: 3.758704
+[53/100] Train loss: 0.162212, Val composite loss: 0.160051, Val MAE: 2.839405, Val RMSE: 3.772525
+[54/100] Train loss: 0.161809, Val composite loss: 0.160370, Val MAE: 2.851231, Val RMSE: 3.771415
+Selected epoch: 43
+Test MAE: 3.034695
+Test RMSE: 4.039126
+
+**------ Final Results ------**
+Seed 1: Test MAE: 3.023883, Test RMSE: 4.022517
+Seed 2: Test MAE: 3.028988, Test RMSE: 4.040521
+Seed 3: Test MAE: 3.034370, Test RMSE: 4.056547
+Seed 4: Test MAE: 3.024364, Test RMSE: 4.025228
+Seed 5: Test MAE: 3.033908, Test RMSE: 4.036565
+Seed 6: Test MAE: 3.027637, Test RMSE: 4.038177
+Seed 7: Test MAE: 3.036358, Test RMSE: 4.067764
+Seed 8: Test MAE: 3.040527, Test RMSE: 4.067857
+Seed 9: Test MAE: 3.023325, Test RMSE: 4.014162
+Seed 10: Test MAE: 3.039677, Test RMSE: 4.045398
+Seed 11: Test MAE: 3.026384, Test RMSE: 4.041545
+Seed 12: Test MAE: 3.008764, Test RMSE: 4.004143
+Seed 13: Test MAE: 3.032022, Test RMSE: 4.048904
+Seed 14: Test MAE: 3.031680, Test RMSE: 4.039154
+Seed 15: Test MAE: 3.034695, Test RMSE: 4.039126
+Overall Test MAE: 3.029772
+Overall Test RMSE: 4.039174
