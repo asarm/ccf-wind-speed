@@ -43,8 +43,10 @@ def main():
     parser.add_argument("--device", default=(
         "cuda:0" if torch.cuda.is_available() else "cpu"))
     parser.add_argument("--seeds", type=int)
-    parser.add_argument("--output-root", default="lacgnn-paper/param_search_runs")
-    parser.add_argument("--log-root", default="lacgnn-paper/logs/param_search")
+    parser.add_argument(
+        "--output-root", default="ccf-wind-speed/param_search_runs")
+    parser.add_argument(
+        "--log-root", default="ccf-wind-speed/logs/param_search")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 

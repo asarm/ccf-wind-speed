@@ -94,30 +94,44 @@ def make_windows(frames, config: LACGNNConfig):
         frames["direction_cos"],
     )
     values = np.stack([frame.to_numpy() for frame in channels], axis=-1)
-    inputs, targets = [], []
+    inputs, targets, target_starts = [], [], []
     final_start = len(values) - config.ccf_window - config.output_length
     for start in range(0, final_start + 1, config.window_stride):
         split = start + config.ccf_window
         inputs.append(values[start:split])
         targets.append(values[split:split + config.output_length, :, 0])
+        target_starts.append(split)
     x = np.asarray(inputs, dtype=np.float32).transpose(0, 3, 1, 2)
     y = np.asarray(targets, dtype=np.float32)
-    return x, y
+    return x, y, np.asarray(target_starts, dtype=np.int64)
 
 
-def split_loaders(inputs, targets, config: LACGNNConfig, seed: int):
-    train_end = int(len(inputs) * config.train_fraction)
-    validation_end = int(
-        len(inputs) * (config.train_fraction + config.validation_fraction))
+def split_loaders(inputs, targets, target_starts, total_rows: int,
+                  config: LACGNNConfig, seed: int):
+    train_boundary = int(total_rows * config.train_fraction)
+    validation_boundary = int(
+        total_rows * (config.train_fraction + config.validation_fraction))
+    target_ends = target_starts + config.output_length
+    masks = (
+        target_ends <= train_boundary,
+        ((target_starts >= train_boundary)
+         & (target_ends <= validation_boundary)),
+        ((target_starts >= validation_boundary)
+         & (target_ends <= total_rows)),
+    )
+    split_arrays = [(inputs[mask], targets[mask]) for mask in masks]
+    if any(len(split_inputs) == 0 for split_inputs, _ in split_arrays):
+        raise ValueError(
+            "the configured timeline split leaves an empty dataset partition")
+
     generator = torch.Generator().manual_seed(seed)
     train = DataLoader(
-        WindDataset(inputs[:train_end], targets[:train_end]),
+        WindDataset(*split_arrays[0]),
         batch_size=config.batch_size, shuffle=True, generator=generator)
     validation = DataLoader(
-        WindDataset(inputs[train_end:validation_end],
-                    targets[train_end:validation_end]),
+        WindDataset(*split_arrays[1]),
         batch_size=config.batch_size)
     test = DataLoader(
-        WindDataset(inputs[validation_end:], targets[validation_end:]),
+        WindDataset(*split_arrays[2]),
         batch_size=config.batch_size)
     return train, validation, test

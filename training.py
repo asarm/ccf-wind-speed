@@ -68,7 +68,7 @@ def _write_log(handle, message=""):
 def prepare_experiment(data_dir, config: LACGNNConfig):
     clean, stations = load_clean_data(data_dir)
     normalized, statistics = normalize_data(clean, config.train_fraction)
-    inputs, targets = make_windows(normalized, config)
+    inputs, targets, target_starts = make_windows(normalized, config)
     train_rows = int(len(normalized["wind"]) * config.train_fraction)
     training_wind = torch.tensor(
         normalized["wind"].iloc[:train_rows].to_numpy(),
@@ -79,7 +79,10 @@ def prepare_experiment(data_dir, config: LACGNNConfig):
         statistics["wind"]["min"].to_numpy(), dtype=torch.float32)
     span = torch.tensor(
         statistics["wind"]["span"].to_numpy(), dtype=torch.float32)
-    return inputs, targets, stations, static, minimum, span
+    return (
+        inputs, targets, target_starts, len(normalized["wind"]), stations,
+        static, minimum, span,
+    )
 
 
 def train_once(data, config: LACGNNConfig, seed: int, device,
@@ -88,9 +91,10 @@ def train_once(data, config: LACGNNConfig, seed: int, device,
                model_class=LACGNN):
     set_seed(seed)
     _write_log(log_handle, f"**------ Seed {run_index}/{total_runs} ------**")
-    inputs, targets, stations, static, minimum, span = data
+    (inputs, targets, target_starts, total_rows, stations, static, minimum,
+     span) = data
     train_loader, validation_loader, test_loader = split_loaders(
-        inputs, targets, config, seed)
+        inputs, targets, target_starts, total_rows, config, seed)
     model = model_class(len(stations), static, config)
     model.apply(initialize_parameters)
     model.to(device)

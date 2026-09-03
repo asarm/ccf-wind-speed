@@ -1,18 +1,10 @@
 import argparse
+from pathlib import Path
 
 import torch
 
 from .config import LACGNNConfig
 from .training import train_many
-
-
-def dataset_name(data_dir):
-    names = {
-        "hourly_data": "usa",
-        "ceda_data": "uk",
-        "ireland_hourly_data": "ireland",
-    }
-    return names.get(data_dir.rstrip("/").split("/")[-1], "dataset")
 
 
 def main():
@@ -25,16 +17,15 @@ def main():
     parser.add_argument("--device", default=(
         "cuda:0" if torch.cuda.is_available() else "cpu"))
     parser.add_argument("--seeds", type=int, default=15)
-    parser.add_argument("--window-stride", type=int, default=3)
+    parser.add_argument("--window-stride", type=int, default=1)
     parser.add_argument(
         "--log-file",
-        help="clean TXT log path (default: lacgnn-paper/logs/<dataset>.txt)",
+        help="clean TXT log path (default: <output-dir>/train.txt)",
     )
     args = parser.parse_args()
     if args.window_stride < 1:
         parser.error("--window-stride must be positive")
-    log_file = args.log_file or (
-        f"lacgnn-paper/logs/{dataset_name(args.data_dir)}.txt")
+    log_file = args.log_file or Path(args.output_dir) / "train.txt"
     train_many(
         args.data_dir, args.output_dir,
         LACGNNConfig(window_stride=args.window_stride),

@@ -6,7 +6,7 @@ class LACGNNConfig:
     input_length: int = 48
     ccf_window: int = 48
     output_length: int = 24
-    window_stride: int = 3
+    window_stride: int = 1
     train_fraction: float = 0.60
     validation_fraction: float = 0.20
     batch_size: int = 32

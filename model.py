@@ -78,7 +78,7 @@ def _full_ccf(wind, max_lag: int):
     fft_size = 2 * steps
     spectrum = torch.fft.rfft(normalized, n=fft_size, dim=-1)
     cross_spectrum = (
-        spectrum.unsqueeze(2) * torch.conj(spectrum.unsqueeze(1)))
+        torch.conj(spectrum.unsqueeze(2)) * spectrum.unsqueeze(1))
     ccf = torch.fft.irfft(cross_spectrum, n=fft_size, dim=-1)
     indices = torch.cat((
         torch.arange(fft_size - max_lag, fft_size, device=wind.device),
@@ -95,11 +95,11 @@ def dynamic_ccf_graph(wind, max_lag: int, sparsifier: RowPercentileTopK):
     positive = peak_index > max_lag
     zero = peak_index == max_lag
 
-    # A[target, source]: negative lag means i leads j, hence A[j, i].
-    adjacency = torch.where(positive, peak_strength, 0.0)
+    # A[target, source]: positive lag means i leads j, hence A[j, i].
+    adjacency = torch.where(negative, peak_strength, 0.0)
     adjacency = torch.maximum(
         adjacency,
-        torch.where(negative, peak_strength, 0.0).transpose(1, 2),
+        torch.where(positive, peak_strength, 0.0).transpose(1, 2),
     )
     zero_edges = torch.where(zero, peak_strength, 0.0)
     adjacency = torch.maximum(adjacency, zero_edges)
@@ -108,8 +108,8 @@ def dynamic_ccf_graph(wind, max_lag: int, sparsifier: RowPercentileTopK):
 
     # For A[target, source], both expressions describe lags 1..max_lag in
     # the assigned propagation direction. Averaging removes FFT round-off.
-    positive_profile = ccf[..., max_lag + 1:]
-    negative_profile = ccf[..., :max_lag].flip(-1).transpose(1, 2)
+    positive_profile = ccf[..., max_lag + 1:].transpose(1, 2)
+    negative_profile = ccf[..., :max_lag].flip(-1)
     directional_profile = 0.5 * (positive_profile + negative_profile)
     return directional_profile.contiguous(), adjacency
 
